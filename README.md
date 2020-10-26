@@ -35,7 +35,7 @@ The site needs to be colourful and easy to navigate with interactive and or movi
 
 1. As a returning visitor I want to be able to find out how to get in touch with CJBlasts with any questions I may have
 2. I want to find links to his collaborators
-3. I want to find out waht projects he is active on and check out new content.
+3. I want to find out what projects he is active on and check out his new content.
 
 First I layed out 
 
