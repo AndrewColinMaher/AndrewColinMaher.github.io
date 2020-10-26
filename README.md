@@ -6,14 +6,15 @@ Cillian Maher is an aspiring and budding youtuber that provides content such as 
 
 ## The aims and objectives
 
-The aims of this CJBlasts site is to give the client who is a budding youtuber a:
+The aims, objectives [stratgey](https://ibb.co/Xz8LY6Q) of the CJBlasts site is to give the client who is a budding youtuber a:
 
 - Online Presence
 - To Showcase Content
 - Increase his followers
 - Provide Links to all his relevant Social Media
 - Promote any Collaborative projects that he creates or is involved in
-- provide Links to merch that he is selling
+- Provide Links to merch that he is selling
+- Provide a form where were potential colloborators or Clients can get in touch
 
 ### Market Analysis
 
@@ -22,7 +23,21 @@ or more. The site has to be simple and attractive to new users, these could be c
 twitter, discord, reddit or even youtube.
 The site needs to be colourful and easy to navigate with interactive and or moving elemnents
 
-First I layed out [stratgey](https://ibb.co/Xz8LY6Q)
+### User Experience
+
+ - #### First Time Visitor Goals
+
+1. As a first time visitor I want to learn about CJblasts, what is his content like.
+2. I want to be able to easily navigate throughout the site and find content.
+3. I want to locate his social media accounts to see his following to see how popular he is.
+
+- #### Returning Visitor and Frequnet Visitor Goals 
+
+1. As a returning visitor I want to be able to find out how to get in touch with CJBlasts with any questions I may have
+2. I want to find links to his collaborators
+3. I want to find out waht projects he is active on and check out new content.
+
+First I layed out 
 
 ## Design
 
