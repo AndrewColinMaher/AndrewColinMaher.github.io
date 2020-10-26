@@ -37,7 +37,23 @@ The site needs to be colourful and easy to navigate with interactive and or movi
 2. I want to find links to his collaborators
 3. I want to find out what projects he is active on and check out his new content.
 
-First I layed out 
+### Creative and Technical requirements for the new site
+
+ - To have social media embedded into the site.
+ - To have a form for other animators or prospective employers 
+ - To have a creative and easy to use gallery
+ - To have a simple layout for prospective new users
+ - To have his Merchandise advertised on the site
+ - The Site may have sister projects and informative links should be considerd into the Design
+
+ ### Information Architecture
+
+ #### Menu
+ lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+
+ #### Main Body
+
+ #### Footer
 
 ## Design
 
