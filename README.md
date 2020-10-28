@@ -4,9 +4,11 @@ Cillian Maher is an aspiring and budding youtuber that provides content such as 
 
 [Visit the live project here](http://.......)
 
+<h2><img src="https://ibb.co/Xz8LY6Q"></h2>
+
 ## The aims and objectives
 
-The aims, objectives [stratgey](https://ibb.co/Xz8LY6Q) of the CJBlasts site is to give the client who is a budding youtuber a:
+The aims, objectives [stratgey] of the CJBlasts site is to give the client who is a budding youtuber a:
 
 - Online Presence
 - To Showcase Content
@@ -25,13 +27,13 @@ The site needs to be colourful and easy to navigate with interactive and or movi
 
 ### User Experience
 
- - #### First Time Visitor Goals
+- #### First Time Visitor Goals
 
 1. As a first time visitor I want to learn about CJblasts, what is his content like.
 2. I want to be able to easily navigate throughout the site and find content.
 3. I want to locate his social media accounts to see his following to see how popular he is.
 
-- #### Returning Visitor and Frequnet Visitor Goals 
+- #### Returning Visitor and Frequnet Visitor Goals
 
 1. As a returning visitor I want to be able to find out how to get in touch with CJBlasts with any questions I may have
 2. I want to find links to his collaborators
@@ -39,21 +41,22 @@ The site needs to be colourful and easy to navigate with interactive and or movi
 
 ### Creative and Technical requirements for the new site
 
- - To have social media embedded into the site.
- - To have a form for other animators or prospective employers 
- - To have a creative and easy to use gallery
- - To have a simple layout for prospective new users
- - To have his Merchandise advertised on the site
- - The Site may have sister projects and informative links should be considerd into the Design
+- To have social media embedded into the site.
+- To have a form for other animators or prospective employers
+- To have a creative and easy to use gallery
+- To have a simple layout for prospective new users
+- To have his Merchandise advertised on the site
+- The Site may have sister projects and informative links should be considerd into the Design
 
- ### Information Architecture
+### Information Architecture
 
- #### Menu
- lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+#### Menu
 
- #### Main Body
+lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
 
- #### Footer
+#### Main Body
+
+#### Footer
 
 ## Design
 
