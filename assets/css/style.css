@@ -1,11 +1,69 @@
-.nav-sm-banner {
-  border-bottom: 1px solid #6100ff;
+/* *Placeing the colour elements in one place for colour change experiments */
+:root {
+  --primary-color: #9fccd1;
+  --border-color: #6a2c70;
 }
 
-.logo-banner {
-  color: green;
+body {
+  background-color: var(--primary-color);
+}
+.wrapper {
+  height: 1000px;
+  background: linear-gradient(
+    70deg,
+    #f9ed69 0%,
+    #f9ed69 40%,
+    #f08a5d calc(40% + 1px),
+    #f08a5d 60%,
+    #b83b5e calc(60% + 1px),
+    #b83b5e 70%,
+    #6a2c70 calc(70% + 1px),
+    #6a2c70 100%
+  );
+}
+/* Top Banner */
+.my-row {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
 
-h1 {
-  color: red;
+.div.container-fluid.nav-banner.d-flex {
+  padding-right: 0px;
+}
+
+.my-col a {
+  text-decoration: none;
+  color: black;
+}
+
+.my-col {
+  font-size: 18px;
+  background-color: #fff;
+}
+
+/* *Navigation */
+
+.navbar {
+  text-decoration: none;
+  color: #fff;
+}
+div ul li {
+  border: 2px solid var(--border-color);
+  border-radius: 25%;
+}
+ul {
+  list-style: none;
+}
+
+.navbar a {
+  padding: 10px;
+  margin: 0 5px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.figure {
+  background-image: url("../images/cjhome.png");
 }
