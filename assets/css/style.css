@@ -1,123 +1,112 @@
-/* *Placeing the colour elements in one place for colour change experiments as seen on traversy media*/
 @font-face {
   font-family: HelveticaBold;
   src: url(../css/fonts/HelveticaNowText-Bold.otf);
 }
+
 @font-face {
   font-family: HelveticaRegular;
   src: url(../css/fonts/HelveticaNowText-Regular.otf);
 }
 
 :root {
+  /* *colours */
   --primary-color: #9fccd1;
   --border-color: #6a2c70;
 }
 
 body {
-  background-color: var(--primary-color);
+  background: #f2e7ac;
+  font-family: "HelveticaRegular";
 }
-.intro {
-  height: 800px;
+
+.intro-background {
+  margin-top: 20px;
+  height: 400px;
   background: linear-gradient(
     70deg,
     #f9ed69 0%,
     #f9ed69 40%,
-    #f08a5d calc(40% + 1px),
-    #f08a5d 60%,
-    #b83b5e calc(60% + 1px),
-    #b83b5e 70%,
+    #f2e7ac calc(40% + 1px),
+    #f2e7ac 60%,
+    #f2e7ac calc(60% + 1px),
+    #f2e7ac 70%,
     #6a2c70 calc(70% + 1px),
     #6a2c70 100%
   );
 }
-/* Top Banner */
 
-.my-row {
-  overflow: visible;
-  width: 100%;
-  height: 100%;
+.nav-color-home {
+  background-color: #9fccd1;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 30px;
 }
-.p-banner {
+
+.nav-color-art {
+  background-color: #d6b872;
+}
+
+.nav-color-gallery {
+  background-color: #b889fa;
+}
+
+.nav-color-contact {
+  background-color: #a3eb7f;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 30px;
+}
+
+/* *Top Banner */
+
+.banner-logo {
   font-family: "HelveticaBold";
+  color: #6a2c70;
 }
 
 .offer span {
-  color: #f9ed69;
+  color: #f26444;
 }
 
 .offer a {
-  color: white;
+  color: #6a2c70;
+  font-weight: 500;
+  text-decoration: none;
 }
+
 #mysvg {
-  top: -10px;
+  top: -40px;
   margin: auto;
   position: relative;
   z-index: 5;
   display: block;
 }
-.my-col a {
-  text-decoration: none;
-  color: black;
-}
-
-.my-col {
-  font-size: 18px;
-  background-color: #fff;
-}
 
 /* *Navigation */
 
-.navbar {
-  text-decoration: none;
-  color: #fff;
-}
-div ul li {
-  border: 2px solid var(--border-color);
-  border-radius: 25%;
-  margin: 20px;
-}
-ul {
-  list-style: none;
+.ui-nav-item {
+  height: 80px;
+  text-align: center;
+  padding: 0;
+  /* mix-blend-mode:multiply; */
 }
 
-.li .nav-item {
-  padding: 10px;
-  margin: 15px;
-}
-a {
+.ui-nav-item a {
+  width: 100%;
   text-decoration: none;
   color: black;
-}
-.figure {
-  background-image: url("../images/cjhome.png");
-}
-/* *animation */
-
-#eyes {
-  animation: squeeze 2.4s infinite;
+  height: 100px;
 }
 
-@keyframes blink {
-  90% {
-    transform: none;
-    animation-timing-function: ease-in;
-  }
-  93% {
-    transform: translateY(15px) scaleY(0);
-  }
-  100% {
-    animation-timing-function: ease-out;
-  }
+.ui-nav-item a i {
+  padding-top: 8px;
+  display: block;
+  color: #f26444;
+  font-size: 25px;
 }
-@keyframes squeeze {
-  90% {
-    transform: none;
-    animation-timing-function: ease-in;
-  }
-  93% {
-    transform: translateY(3px) scaleY(0.8);
-  }
-  100% {
-    animation-timing-function: ease-out;
-  }
+
+.ui-nav-item span {
+  display: block;
+  padding-top: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
 }
