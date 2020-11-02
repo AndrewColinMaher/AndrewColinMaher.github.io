@@ -1,3 +1,4 @@
+/* *Placeing the colour elements in one place for colour change experiments as seen on traversy media*/
 @font-face {
   font-family: HelveticaBold;
   src: url(../css/fonts/HelveticaNowText-Bold.otf);
@@ -8,6 +9,16 @@
   src: url(../css/fonts/HelveticaNowText-Regular.otf);
 }
 
+@font-face {
+  font-family: HelveticaMedium;
+  src: url(../css/fonts/HelveticaNowText-Medium.otf);
+}
+
+@font-face {
+  font-family: HelveticaThin;
+  src: url(../css/fonts/HelveticaNowText-Thin.otf);
+}
+
 :root {
   /* *colours */
   --primary-color: #9fccd1;
@@ -15,21 +26,21 @@
 }
 
 body {
-  background: #f2e7ac;
+  background: aliceblue;
   font-family: "HelveticaRegular";
 }
 
 .intro-background {
   margin-top: 20px;
-  height: 400px;
+  height: 800px;
   background: linear-gradient(
     70deg,
     #f9ed69 0%,
     #f9ed69 40%,
-    #f2e7ac calc(40% + 1px),
-    #f2e7ac 60%,
-    #f2e7ac calc(60% + 1px),
-    #f2e7ac 70%,
+    aliceblue calc(40% + 1px),
+    aliceblue 60%,
+    aliceblue calc(60% + 1px),
+    aliceblue 70%,
     #6a2c70 calc(70% + 1px),
     #6a2c70 100%
   );
@@ -55,7 +66,31 @@ body {
   border-bottom-right-radius: 30px;
 }
 
-/* *Top Banner */
+/* *special */
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.general-sub {
+  font-family: "HelveticaRegular";
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.red {
+  color: red;
+}
+
+/* *Heading */
 
 .banner-logo {
   font-family: "HelveticaBold";
@@ -70,15 +105,6 @@ body {
   color: #6a2c70;
   font-weight: 500;
   text-decoration: none;
-  font-size: 18px;
-}
-
-#mysvg {
-  top: -40px;
-  margin: auto;
-  position: relative;
-  z-index: 5;
-  display: block;
 }
 
 /* *Navigation */
@@ -111,3 +137,25 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
+
+/* *Footer */
+footer {
+  background-color: aliceblue;
+  min-height: 120px;
+}
+
+.social-links i {
+  padding-bottom: 36px;
+}
+.ui-footer {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.social-links li:nth-child(2) {
+  color: #7289da;
+}
+/* //*Footer */
