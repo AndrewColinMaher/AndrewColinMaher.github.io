@@ -35,6 +35,26 @@
 
 /* //*animation logo eyes */
 
+
+/* *shades Drop */
+@keyframes yourAnimation {
+    0% {
+        transform: rotate(0) translateY(-15%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotate(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+#shades {
+    animation: yourAnimation 3s forwards 0s ease;
+}
+/* *shades Drop */
+
+
 /* *banner grow animation */
 .hvr-grow {
   display: inline-block;
