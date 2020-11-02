@@ -1,42 +1,42 @@
 /* *Animation logo Eyes */
 #eyes {
-  animation: squeeze 2.4s infinite;
+    animation: squeeze 2.4s infinite;
+    
 }
 
 @keyframes blink {
-  90% {
-    transform: none;
-    animation-timing-function: ease-in;
-  }
+    90% {
+        transform: none;
+        animation-timing-function: ease-in;
+    }
 
-  93% {
-    transform: translateY(15px) scaleY(0);
-  }
+    93% {
+        transform: translateY(15px) scaleY(0);
+    }
 
-  100% {
-    animation-timing-function: ease-out;
-  }
+    100% {
+        animation-timing-function: ease-out;
+    }
 }
 
 @keyframes squeeze {
-  90% {
-    transform: none;
-    animation-timing-function: ease-in;
-  }
+    90% {
+        transform: none;
+        animation-timing-function: ease-in;
+    }
 
-  93% {
-    transform: translateY(3px) scaleY(0.8);
-  }
+    93% {
+        transform: translateY(3px) scaleY(0.8);
+    }
 
-  100% {
-    animation-timing-function: ease-out;
-  }
+    100% {
+        animation-timing-function: ease-out;
+    }
 }
-
 /* //*animation logo eyes */
 
 
-/* *shades Drop */
+
 @keyframes yourAnimation {
     0% {
         transform: rotate(0) translateY(-15%);
@@ -52,24 +52,24 @@
 #shades {
     animation: yourAnimation 3s forwards 0s ease;
 }
-/* *shades Drop */
 
 
 /* *banner grow animation */
 .hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  transition-duration: 0.3s;
-  transition-property: transform;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
 }
 
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
+
 /* //*banner grow animation */
