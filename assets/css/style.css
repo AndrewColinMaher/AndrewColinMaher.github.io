@@ -155,14 +155,27 @@ footer {
 .social-links i {
   padding-bottom: 36px;
 }
+
 .ui-footer {
   width: 32px;
   height: 32px;
   padding: 12px 0;
-  font-size: 20px;
+  font-size: 35px;
   text-align: center;
 }
+.footer-item a i {
+  padding-top: 8px;
+  display: inline-block;
+  font-size: 35px;
+  color: #f26444;
+}
 
+.footer-item a {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  height: 100px;
+}
 .discord {
   color: #7289da;
 }
