@@ -65,7 +65,7 @@
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-  transform: scale(1.1);
+  transform: scale(2);
 }
 
 /* //*banner grow animation */
@@ -93,7 +93,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.2);
+  background: #f26444;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -109,6 +109,12 @@
 .hvr-sweep-to-bottom:active,
 .hvr-sweep-to-bottom:focus,
 .hvr-sweep-to-bottom:hover {
+  color: #fff;
+}
+
+.hvr-sweep-to-bottom:active,
+.hvr-sweep-to-bottom:focus,
+.hvr-sweep-to-bottom:hover i {
   color: #fff;
 }
 

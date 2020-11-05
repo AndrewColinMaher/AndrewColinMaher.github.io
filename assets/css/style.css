@@ -70,6 +70,18 @@ h4 {
   margin: 0;
 }
 
+a.nav-link.active {
+  height: 80px;
+}
+
+.nav-pills .nav-link.active {
+  color: white;
+  background: #f26444;
+}
+
+.nav-pills .nav-link.active i {
+  color: #fff;
+}
 .uppercase {
   text-transform: uppercase;
 }
