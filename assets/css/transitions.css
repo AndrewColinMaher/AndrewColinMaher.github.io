@@ -1,75 +1,121 @@
 /* *Animation logo Eyes */
 #eyes {
-    animation: squeeze 2.4s infinite;
-    
+  animation: squeeze 2.4s infinite;
 }
 
 @keyframes blink {
-    90% {
-        transform: none;
-        animation-timing-function: ease-in;
-    }
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
 
-    93% {
-        transform: translateY(15px) scaleY(0);
-    }
+  93% {
+    transform: translateY(15px) scaleY(0);
+  }
 
-    100% {
-        animation-timing-function: ease-out;
-    }
+  100% {
+    animation-timing-function: ease-out;
+  }
 }
 
 @keyframes squeeze {
-    90% {
-        transform: none;
-        animation-timing-function: ease-in;
-    }
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
 
-    93% {
-        transform: translateY(3px) scaleY(0.8);
-    }
+  93% {
+    transform: translateY(3px) scaleY(0.8);
+  }
 
-    100% {
-        animation-timing-function: ease-out;
-    }
+  100% {
+    animation-timing-function: ease-out;
+  }
 }
 /* //*animation logo eyes */
 
-
-
 @keyframes yourAnimation {
-    0% {
-        transform: rotate(0) translateY(-15%);
-        opacity: 0;
-    }
+  0% {
+    transform: rotate(0) translateY(-15%);
+    opacity: 0;
+  }
 
-    100% {
-        transform: rotate(0) translateY(0);
-        opacity: 1;
-    }
+  100% {
+    transform: rotate(0) translateY(0);
+    opacity: 1;
+  }
 }
 
 #shades {
-    animation: yourAnimation 3s forwards 0s ease;
+  animation: yourAnimation 3s forwards 0s ease;
 }
 
-
-/* *banner grow animation */
+/* *HOVER.CSS Grow animation */
 .hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
 }
 
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* //*banner grow animation */
+
+/* *HOVER.CSS Sweep to bottom */
+.hvr-sweep-to-bottom {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.hvr-sweep-to-bottom:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 80px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-bottom:active,
+.hvr-sweep-to-bottom:focus,
+.hvr-sweep-to-bottom:hover {
+  color: #fff;
+}
+
+.hvr-sweep-to-bottom:active:before,
+.hvr-sweep-to-bottom:focus:before,
+.hvr-sweep-to-bottom:hover:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+/* * //HOVER.CSS Sweep to bottom */

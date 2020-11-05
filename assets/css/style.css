@@ -48,8 +48,6 @@ body {
 
 .nav-color-home {
   background-color: #9fccd1;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 30px;
 }
 
 .nav-color-art {
@@ -62,8 +60,6 @@ body {
 
 .nav-color-contact {
   background-color: #a3eb7f;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 30px;
 }
 
 /* *special */
