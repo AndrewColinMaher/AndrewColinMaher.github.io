@@ -163,8 +163,16 @@ footer {
   text-align: center;
 }
 
-.social-links li:nth-child(2) {
+.discord {
   color: #7289da;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.reddit {
+  color: #ff4301;
 }
 /* //*Footer */
 
