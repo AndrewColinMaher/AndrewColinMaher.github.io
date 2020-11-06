@@ -249,3 +249,9 @@ footer {
   font-size: 1.5rem;
   line-height: 2.5;
 }
+
+/* Art */
+.carousel-inner > .carousel-item > img {
+  width: 640px;
+  height: 440px;
+}

@@ -187,6 +187,20 @@
 /*  //HOVER CSS Icon Pulse Grow */
 
 /* HOVER CSS Icon Pop */
+@-webkit-keyframes hvr-icon-pop {
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
+@keyframes hvr-icon-pop {
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
 .hvr-icon-pop {
   display: inline-block;
   vertical-align: middle;
