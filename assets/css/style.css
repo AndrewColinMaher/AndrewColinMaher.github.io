@@ -20,6 +20,7 @@
 }
 
 :root {
+  --active-color: #f26444;
   /* *colours */
   /* --primary-color: #9fccd1;
   --border-color: #6a2c70; */
@@ -76,7 +77,7 @@ a.nav-link.active {
 
 .nav-pills .nav-link.active {
   color: white;
-  background: #f26444;
+  background: var(--active-color);
 }
 
 .nav-pills .nav-link.active i {
@@ -224,3 +225,5 @@ footer {
     padding-right: 1.1rem;
   }
 }
+
+/* *Gallery */
