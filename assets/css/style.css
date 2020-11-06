@@ -63,6 +63,18 @@ body {
   background-color: #a3eb7f;
 }
 
+.discord {
+  color: #7289da;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.reddit {
+  color: #ff4301;
+}
+
 /* *special */
 h1,
 h2,
@@ -153,17 +165,12 @@ footer {
   min-height: 120px;
 }
 
-.social-links i {
-  padding-bottom: 36px;
+.social-links.btn-fr {
+  padding: 0.25rem 0.5rem;
+  font-size: 2rem;
+  line-height: 2.5;
 }
 
-.ui-footer {
-  width: 32px;
-  height: 32px;
-  padding: 12px 0;
-  font-size: 35px;
-  text-align: center;
-}
 .footer-item a i {
   padding-top: 8px;
   display: inline-block;
@@ -177,17 +184,7 @@ footer {
   color: black;
   height: 100px;
 }
-.discord {
-  color: #7289da;
-}
 
-.twitter {
-  color: #00acee;
-}
-
-.reddit {
-  color: #ff4301;
-}
 /* //*Footer */
 
 .gallery {
@@ -233,4 +230,10 @@ footer {
   font-size: 1.5rem;
   line-height: 2.5;
   border-radius: 0.2rem;
+}
+
+.social-links.btn-fr {
+  padding: 0.25rem 0.5rem;
+  font-size: 1.5rem;
+  line-height: 2.5;
 }
