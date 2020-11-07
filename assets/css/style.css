@@ -149,6 +149,14 @@ a.nav-link.active {
   /* mix-blend-mode:multiply; */
 }
 
+div.card-body.showcase {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  width: 32rem;
+  background-color: white;
+}
 .ui-nav-item a {
   width: 100%;
   text-decoration: none;
