@@ -35,7 +35,7 @@
 /* //*animation logo eyes */
 
 /* Sun Glases */
-/* @keyframes yourAnimation {
+@keyframes yourAnimation {
   0% {
     transform: rotate(0) translateY(-15%);
     opacity: 0;
@@ -46,11 +46,11 @@
     opacity: 1;
   }
 }
-
 #shades {
   animation: yourAnimation 3s forwards 0s ease;
-} */
+}
 /* //Sun Glases */
+
 /* *HOVER.CSS Grow animation */
 .hvr-grow {
   display: inline-block;
@@ -188,7 +188,7 @@
 /*  //HOVER CSS Icon Pulse Grow */
 
 /* CJ slides in/// Contact Page*/
-@keyframes yourAnimation {
+@keyframes yourAnimation1 {
   0% {
     transform: rotate(0) translatex(-100%);
     opacity: 0;
@@ -201,22 +201,6 @@
 }
 
 #slid-in {
-  animation: yourAnimation 4s forwards 0s ease;
+  animation: yourAnimation1 4s forwards 0s ease;
 }
 /* // CJ slides in */
-
-@keyframes yourAnimation {
-  0% {
-    transform: rotate(0) translateY(-15%);
-    opacity: 0;
-  }
-
-  100% {
-    transform: rotate(0) translateY(0);
-    opacity: 1;
-  }
-}
-
-#shades {
-  animation: yourAnimation 3s forwards 0s ease;
-}
