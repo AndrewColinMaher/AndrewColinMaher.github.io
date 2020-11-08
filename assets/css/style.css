@@ -24,7 +24,7 @@
 }
 
 body {
-  background: #F2E7AC;
+  background: aliceblue;
   font-family: "HelveticaMedium";
 }
 /*       Colours */
@@ -34,18 +34,18 @@ body {
     70deg,
     #f9ed69 0%,
     #f9ed69 40%,
-    #F2E7AC calc(40% + 1px),
-    #F2E7AC 60%,
-    #F2E7AC calc(60% + 1px),
-    #F2E7AC 70%,
+    aliceblue calc(40% + 1px),
+    aliceblue 60%,
+    aliceblue calc(60% + 1px),
+    aliceblue 70%,
     #6a2c70 calc(70% + 1px),
     #6a2c70 100%
   );
 }
 
- .nav-purple {
-  color: #6a2c70;
-} 
+#purple {
+    color: #6a2c70;
+}
 
 .discord {
   color: #7289da;
@@ -65,6 +65,10 @@ body {
 
 .sale span {
   color: #f26444;
+}
+
+.sale a{
+    color:#6a2c70;
 }
 /*      //Colours */
 
@@ -92,21 +96,35 @@ h4 {
 /*       Navigation */
 .navbar .navbar-brand {
   font-family: "Molot";
-  font-size: 22px;
+  color:#6a2c70;
+  font-size: 34px;
+  max-height: 40px;
+  max-width: 30%;
   letter-spacing: 2.5px;
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .my-navbar {
     font-family: "HelveticaMedium";
-}
-a.nav-link.purple{
-  color: #6a2c70;
-  font-weight: 500;
-  text-decoration: none;
+   
 }
 
 a.nav-link {
 font-size: 18px;
+
+}
+
+.navbar-nav .nav-link {
+    color:#6a2c70;
+    letter-spacing: 2.2px;
+}
+
+.navbar-nav > .active > a {
+    background-color:#6a2c70; 
+    color:#fff;
+    border-radius: 30%;
 }
 /*     //Navigation */
 

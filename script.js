@@ -27,3 +27,5 @@ $("#modal11").on("hidden.bs.modal", function (e) {
   // do something...
   $("#modal11 iframe").attr("src", $("#modal11 iframe").attr("src"));
 });
+
+   

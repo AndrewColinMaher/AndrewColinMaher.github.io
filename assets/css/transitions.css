@@ -136,7 +136,7 @@
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0)
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
 .hvr-pulse-grow:active,
@@ -151,66 +151,12 @@
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
-    animation-direction: alternate
+    animation-direction: alternate;
+
 }
 
 /*    //  HOVER.CSS Pulse-Grow */
 
-/* *HOVER.CSS Sweep to bottom */
-.hvr-sweep-to-bottom {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-
-.hvr-sweep-to-bottom:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  height: 45px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(225, 105, 20, 1);
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
-  -webkit-transform-origin: 50% 0;
-  transform-origin: 50% 0;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-
-.hvr-sweep-to-bottom:active,
-.hvr-sweep-to-bottom:focus,
-.hvr-sweep-to-bottom:hover {
-  color: #fff;
-}
-
-.hvr-sweep-to-bottom:active,
-.hvr-sweep-to-bottom:focus,
-.hvr-sweep-to-bottom:hover i {
-  color: #fff;
-}
-
-.hvr-sweep-to-bottom:active:before,
-.hvr-sweep-to-bottom:focus:before,
-.hvr-sweep-to-bottom:hover:before {
-  -webkit-transform: scaleY(1);
-  transform: scaleY(1);
-}
-/* * //HOVER.CSS Sweep to bottom */
 
 /* HOVER CSS Icon Pulse Grow */
 @-webkit-keyframes hvr-icon-pulse-grow {
