@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: HelveticaRegular;
   src: url(../css/fonts/HelveticaNowText-Regular.otf);
@@ -44,7 +43,7 @@ body {
 }
 
 #purple {
-    color: #6a2c70;
+  color: #6a2c70;
 }
 
 .discord {
@@ -60,15 +59,15 @@ body {
 }
 
 .red {
-  color:#FF0000;
+  color: #ff0000;
 }
 
 .sale span {
   color: #f26444;
 }
 
-.sale a{
-    color:#6a2c70;
+.sale a {
+  color: #6a2c70;
 }
 /*      //Colours */
 
@@ -96,7 +95,7 @@ h4 {
 /*       Navigation */
 .navbar .navbar-brand {
   font-family: "Molot";
-  color:#6a2c70;
+  color: #6a2c70;
   font-size: 34px;
   max-height: 40px;
   max-width: 30%;
@@ -107,27 +106,104 @@ h4 {
 }
 
 .my-navbar {
-    font-family: "HelveticaMedium";
+  font-family: "HelveticaMedium";
 }
 
 a.nav-link {
-font-size: 18px;
+  font-size: 18px;
 }
 
 .navbar-nav .nav-link {
-    color:#6a2c70;
-    letter-spacing: 2.2px;
+  color: #6a2c70;
+  letter-spacing: 2.2px;
 }
 
 .navbar-nav > .active > a {
-    background-color:#6a2c70; 
-    color:#fff;
-    border-radius: 30%;
+  background-color: #6a2c70;
+  color: #fff;
+  border-radius: 30%;
 }
 
 /*     //Navigation */
 
-/*       Home Page */
+/*       Home Page Top Fold*/
+/* Speech bubble is based on SoftCode Sourced YouTube see Readme */
+.bubble-box {
+  margin: 0;
+  background: transparent;
+  font-size: 25px;
+  font-family: courier;
+  font-weight: 800;
+  display: flex;
+  /* align-items: start; */
+  justify-content: center;
+}
+.speech-bubble {
+  color: #fff;
+  background-color: #f28241;
+  padding: 0.5em 1em;
+  position: relative;
+  border-radius: 0 0.25em 0.25em 0.25em;
+  box-shadow: 7px 30px 40px #664400;
+  transition: 0.5s;
+  animation: speech 0.7s linear 1;
+}
+
+.speech-bubble::after {
+  content: "";
+  position: absolute;
+  border: 0.5em solid transparent;
+  border-top-color: #f28241;
+  border-right-color: #f28241;
+  right: 100%;
+  top: 0%;
+  transform: skewY(20deg);
+  transform-origin: 100% 100%;
+}
+
+.speech-bubble2 {
+  color: #fff;
+  background-color: #f28241;
+  padding: 0.5em 1em;
+  position: relative;
+  border-radius: 0 0.25em 0.25em 0.25em;
+  box-shadow: 7px 30px 40px #664400;
+  transition: 0.5s;
+  animation: speech 0.7s linear 1;
+  align-items: end;
+}
+
+.speech-bubble2::after {
+  content: "";
+  position: absolute;
+  border: 0.5em solid transparent;
+  border-top-color: #f28241;
+  border-right-color: #f28241;
+  right: 100%;
+  top: 0%;
+  transform: skewY(20deg);
+  transform-origin: 100% 100%;
+}
+@keyframes speech {
+  0% {
+    top: -20px;
+  }
+  25% {
+    top: 5px;
+    box-shadow: 7px 40px 40px #664400;
+  }
+  50% {
+    top: 20px;
+  }
+  75% {
+    top: -20px;
+    box-shadow: 7px -10px 50px #664400;
+  }
+  0% {
+    top: -20px;
+  }
+}
+
 div.card-body.showcase {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -137,21 +213,7 @@ div.card-body.showcase {
   background-color: white;
 }
 
-
- .nav-color-home {
-  background-color: #9fccd1;
-}
-
-.nav-color-art {
-  background-color: #d6b872;
-}
-
-
-.nav-color-contact {
-  background-color: #a3eb7f;
-} 
-
-/* *Footer */
+/* *Footer       */
 footer {
   background-color: aliceblue;
   min-height: 100px;
@@ -216,48 +278,6 @@ footer {
   }
 }
 
-.bubble-box {
-    margin: 0;
-    background: transparent;
-    font-size: 25px;
-    font-family: courier;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.speech-bubble {
-    color:#fff;
-    background-color: #F28241;
-    padding:0.5em 1em;
-    position: relative;
-    border-radius: 0 0.25em 0.25em 0.25em;
-    box-shadow: 7px 30px 40px #664400;
-    transition: 0.5s;
-    animation: speech .7s linear 1;
-}
-
-.speech-bubble::after {
-    content:'';
-    position: absolute;
-    border: 0.5em solid transparent;
-    border-top-color:#F28241;
-    border-right-color:#F28241;
-    right: 100%;
-    top: 0%;
-    transform: skewY(20deg);
-    transform-origin: 100% 100%;
-}
-
-@keyframes speech {
-    0% { top: -20px;}
-    25% {top: 5px; box-shadow: 7px 40px 40px #664400;}
-    50% {top: 20px;}
-    75% {top: -20px; box-shadow: 7px -10px 50px #664400;}
-    0% {top: -20px;}
-
-}
-
 /* Galery Social Links */
 .btn-sm {
   padding: 0.25rem 0.5rem;
@@ -272,8 +292,6 @@ footer {
   line-height: 2.5;
 }
 /*       //Gallery */
-
-
 
 /* Art Page */
 .carousel-inner > .carousel-item > img {
