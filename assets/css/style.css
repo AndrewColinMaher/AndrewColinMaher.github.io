@@ -1,8 +1,3 @@
-/* *Placeing the colour elements in one place for colour change experiments as seen on traversy media*/
-@font-face {
-  font-family: HelveticaBold;
-  src: url(../css/fonts/HelveticaNowText-Bold.otf);
-}
 
 @font-face {
   font-family: HelveticaRegular;
@@ -26,14 +21,11 @@
 
 :root {
   --active-color: #f26444;
-  /* *colours */
-  /* --primary-color: #9fccd1;
-  --border-color: #6a2c70; */
 }
 
 body {
   background: aliceblue;
-  font-family: "HelveticaRegular";
+  font-family: "HelveticaMedium";
 }
 
 .main-background {
@@ -52,8 +44,12 @@ body {
   );
 }
 
-h1 {
+.navbar .navbar-brand {
   font-family: "Molot";
+}
+
+.my-navbar {
+    font-family: "HelveticaMedium";
 }
 /* .nav-color-home {
   background-color: #9fccd1;
@@ -97,7 +93,7 @@ h4 {
 }
 
 .general-sub {
-  font-family: "HelveticaRegular";
+  font-family: "HelveticaMedium";
 }
 
 .inline-block {
@@ -119,23 +115,26 @@ h4 {
   color: #6a2c70;
 }
 
-.offer span {
+.sale span {
   color: #f26444;
 }
 
-.offer a {
+a.nav-link.purple{
   color: #6a2c70;
   font-weight: 500;
   text-decoration: none;
 }
 
 /* *Navigation */
-.navbar {
-  
-    height: 50px;
+
+
+a.nav-link {
+font-size: 18px;
 }
 
-
+li.nav-link {
+    margin-right:10px;
+}
 article
 /* 
 .ui-nav-item {
