@@ -43,6 +43,10 @@ body {
   );
 }
 
+ .nav-purple {
+  color: #6a2c70;
+} 
+
 .discord {
   color: #7289da;
 }
@@ -76,10 +80,6 @@ h4 {
   text-transform: uppercase;
 }
 
-.general-sub {
-  font-family: "HelveticaMedium";
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -92,6 +92,8 @@ h4 {
 /*       Navigation */
 .navbar .navbar-brand {
   font-family: "Molot";
+  font-size: 22px;
+  letter-spacing: 2.5px;
 }
 
 .my-navbar {
@@ -108,8 +110,7 @@ font-size: 18px;
 }
 /*     //Navigation */
 
-
-
+/*       Home Page */
 div.card-body.showcase {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -120,10 +121,7 @@ div.card-body.showcase {
 }
 
 
-
-
-
-/* .nav-color-home {
+ .nav-color-home {
   background-color: #9fccd1;
 }
 
@@ -131,40 +129,10 @@ div.card-body.showcase {
   background-color: #d6b872;
 }
 
-.nav-color-gallery {
-  background-color: #b889fa;
-}
 
 .nav-color-contact {
   background-color: #a3eb7f;
-} */
-
-
-
-
-
-
-/* .ui-nav-item a {
-  width: 100%;
-  text-decoration: none;
-  color: black;
-  height: 100px;
-}
-
-.ui-nav-item a i {
-  padding-top: 8px;
-  display: block;
-  color: #f26444;
-  font-size: 25px;
-}
-
-.ui-nav-item span {
-  display: block;
-  padding-top: 5px;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 400;
-} */
+} 
 
 /* *Footer */
 footer {
