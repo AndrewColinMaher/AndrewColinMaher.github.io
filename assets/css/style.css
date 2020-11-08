@@ -27,9 +27,8 @@ body {
   background: aliceblue;
   font-family: "HelveticaMedium";
 }
-
+/*       Colours */
 .main-background {
-  margin-top: 20px;
   height: 100vh;
   background: linear-gradient(
     70deg,
@@ -44,6 +43,53 @@ body {
   );
 }
 
+.discord {
+  color: #7289da;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.reddit {
+  color: #ff4301;
+}
+
+.red {
+  color:#FF0000;
+}
+
+.sale span {
+  color: #f26444;
+}
+/*      //Colours */
+
+/*        special */
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.general-sub {
+  font-family: "HelveticaMedium";
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.text-center {
+  text-align: center;
+}
+/*       // special */
+
+/*       Navigation */
 .navbar .navbar-brand {
   font-family: "Molot";
 }
@@ -51,6 +97,32 @@ body {
 .my-navbar {
     font-family: "HelveticaMedium";
 }
+a.nav-link.purple{
+  color: #6a2c70;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a.nav-link {
+font-size: 18px;
+}
+/*     //Navigation */
+
+
+
+div.card-body.showcase {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  width: 32rem;
+  background-color: white;
+}
+
+
+
+
+
 /* .nav-color-home {
   background-color: #9fccd1;
 }
@@ -67,91 +139,11 @@ body {
   background-color: #a3eb7f;
 } */
 
-.discord {
-  color: #7289da;
-}
-
-.twitter {
-  color: #00acee;
-}
-
-.reddit {
-  color: #ff4301;
-}
-
-/* *special */
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-}
 
 
-.uppercase {
-  text-transform: uppercase;
-}
-
-.general-sub {
-  font-family: "HelveticaMedium";
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.red {
-  color: red;
-}
-
-.text-center {
-  text-align: center;
-}
-
-/* *Heading */
-
-.banner-logo {
-  font-family: "Molot";
-  color: #6a2c70;
-}
-
-.sale span {
-  color: #f26444;
-}
-
-a.nav-link.purple{
-  color: #6a2c70;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-/* *Navigation */
 
 
-a.nav-link {
-font-size: 18px;
-}
 
-li.nav-link {
-    margin-right:10px;
-}
-article
-/* 
-.ui-nav-item {
-  height: 80px;
-  text-align: center;
-  padding: 0;
-  /* mix-blend-mode:multiply; */
-} */
-
-div.card-body.showcase {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  min-height: 1px;
-  padding: 1.25rem;
-  width: 32rem;
-  background-color: white;
-}
 /* .ui-nav-item a {
   width: 100%;
   text-decoration: none;
@@ -200,8 +192,9 @@ footer {
   height: 100px;
 }
 
-/* //*Footer */
+/*        //*Footer */
 
+/*     Gallery Modals */
 .gallery {
   -webkit-column-count: 3;
   -moz-column-count: 3;
@@ -237,9 +230,7 @@ footer {
     padding-right: 1.1rem;
   }
 }
-
-/* *Gallery */
-
+/* Galery Social Links */
 .btn-sm {
   padding: 0.25rem 0.5rem;
   font-size: 1.5rem;
@@ -252,8 +243,11 @@ footer {
   font-size: 1.5rem;
   line-height: 2.5;
 }
+/*       //Gallery */
 
-/* Art */
+
+
+/* Art Page */
 .carousel-inner > .carousel-item > img {
   width: 640px;
   height: 440px;
@@ -261,58 +255,3 @@ footer {
 /*  //Art */
 
 /* Contact  */
-
-/* .form-section {
-  clear: both;
-
-  background-size: cover;
-  background-position: center;
-  height: 900px;
-}
-.signup-form h2 {
-  color: #fafafa;
-  margin-bottom: 20px;
-}
-.signup-form {
-  margin-top: 20px;
-  color: #fff;
-  background-color: rgba(60, 60, 60, 0.6);
-  max-width: 400px;
-  left: 10%;
-  padding: 30px;
-}
-.text-input {
-  background: transparent;
-  color: #fafafa;
-  width: 100%;
-  height: 25px;
-  margin: 5px 0 20px 0;
-  border: 1px solid #fafafa;
-  border-radius: 2px;
-}
-
-.text-input:hover {
-  border-color: #f16c6b;
-}
-.join-button {
-  margin-top: 20px;
-  border-radius: 2px;
-  padding: 15px 32px 15px 32px;
-  text-align: center;
-  font-size: 100%;
-  background-color: #f16c6b;
-  color: #fafafa;
-  display: block;
-}
-
-.join-button:hover {
-  background-color: #fafafa;
-  color: #f16c6b;
-} */
-
-/*  //Contact  */
-@media (min-width: 992px) {
-    .navbar {
-        height:50px;
-    }
-}
