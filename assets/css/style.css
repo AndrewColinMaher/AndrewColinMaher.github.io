@@ -24,7 +24,7 @@
 }
 
 body {
-  background: aliceblue;
+  background: #F2E7AC;
   font-family: "HelveticaMedium";
 }
 /*       Colours */
@@ -34,10 +34,10 @@ body {
     70deg,
     #f9ed69 0%,
     #f9ed69 40%,
-    aliceblue calc(40% + 1px),
-    aliceblue 60%,
-    aliceblue calc(60% + 1px),
-    aliceblue 70%,
+    #F2E7AC calc(40% + 1px),
+    #F2E7AC 60%,
+    #F2E7AC calc(60% + 1px),
+    #F2E7AC 70%,
     #6a2c70 calc(70% + 1px),
     #6a2c70 100%
   );
