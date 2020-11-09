@@ -128,15 +128,14 @@ a.nav-link {
 /*     //Navigation */
 
 /*       Home Page Top Fold*/
-/* Speech bubble is based on SoftCode Sourced YouTube see Readme */
+/* Speech bubble is inspired from Softcode (https://www.youtube.com/watch?v=4n-HajZScKQ) customized it and added bootsrap classes instead */
 .bubble-box {
   margin: 0;
   background: transparent;
   font-size: 25px;
   font-family: courier;
   font-weight: 800;
-  display: flex;
-  /* justify-content: center; */
+  justify-content: center;
 }
 .speech-bubble {
   color: #fff;
