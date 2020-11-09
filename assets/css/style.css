@@ -25,10 +25,10 @@
 body {
   background: aliceblue;
   font-family: "HelveticaMedium";
+  height: 100vh;
 }
 /*       Colours */
 .main-background {
-  height: 100vh;
   background: linear-gradient(
     70deg,
     #f9ed69 0%,
