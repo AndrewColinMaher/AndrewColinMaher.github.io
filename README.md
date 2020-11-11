@@ -90,6 +90,8 @@ lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
 - Best Practices, had hightlighted that Links to cross-origin destinations are unsafe and that Adding rel="noopener" or rel="noreferrer" to all exteral links
   to impove serurty vulnerabilities and pissible perfomrmance issues
 
+- And to use rel="preload" in my Head links to sprecify its importance and level up its load times.
+
 ### Further Testing
 
 ### Known Bugs
