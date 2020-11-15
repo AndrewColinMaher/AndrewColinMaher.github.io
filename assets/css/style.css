@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
+
 @font-face {
   font-family: HelveticaRegular;
   src: url(../css/fonts/HelveticaNowText-Regular.otf);
@@ -128,7 +130,6 @@ a.nav-link {
   color: #fff;
   border-radius: 30%;
 }
-
 /*     //Navigation */
 
 /*       Home Page Top Fold*/
@@ -335,4 +336,73 @@ footer {
 }
 /*  //Art */
 
-/* Contact  */
+/* Contact US  */
+#form {
+  height: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  position: relative;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  color: black;
+  position: relative;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  width: 400px;
+}
+input,
+textarea {
+  width: 400px;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px;
+  font-family: "Sniglet", cursive;
+  font-size: 1em;
+  color: #676767;
+  transition: border 0.5s;
+  -webkit-transition: border 0.5s;
+  -moz-transition: border 0.5s;
+  -o-transition: border 0.5s;
+  border: solid 3px #da50fa;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input:focus,
+textarea:focus {
+  border: solid 3px #da50fa;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+  overflow: auto;
+}
+input[type="submit"] {
+  background-color: #f26444;
+  color: white;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 1.29em;
+  font-family: "Sniglet", cursive;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+input[type="submit"]:hover {
+  background-color: #f26444;
+}
+label {
+  font-size: 1.5em;
+  margin-top: 20px;
+  padding-left: 20px;
+}
