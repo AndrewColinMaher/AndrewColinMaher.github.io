@@ -25,9 +25,8 @@
 }
 
 body {
-  background: aliceblue;
   font-family: "HelveticaMedium";
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(
     70deg,
     #f9ed69 0%,
@@ -39,6 +38,8 @@ body {
     #6a2c70 calc(70% + 1px),
     #6a2c70 100%
   );
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #purple {
