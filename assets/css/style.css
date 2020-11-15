@@ -142,8 +142,9 @@ a.nav-link {
   /* justify-content: center; */
 }
 .speech-bubble {
-  color: #fff;
-  background-color: #f28241;
+  color: black;
+  text-shadow: white 0px 0px 10px;
+  background-color: #facd5c;
   padding: 0.5em 1em;
   position: relative;
   border-radius: 0 0.25em 0.25em 0.25em;
@@ -156,8 +157,8 @@ a.nav-link {
   content: "";
   position: absolute;
   border: 0.5em solid transparent;
-  border-top-color: #f28241;
-  border-right-color: #f28241;
+  border-top-color: #facd5c;
+  border-right-color: #facd5c;
   right: 100%;
   top: 0%;
   transform: skewY(20deg);
@@ -165,8 +166,9 @@ a.nav-link {
 }
 
 .speech-bubble2 {
-  color: #fff;
-  background-color: #f28241;
+  color: black;
+  text-shadow: white 0px 0px 10px;
+  background-color: #facd5c;
   padding: 0.5em 1em;
   position: relative;
   border-radius: 0 0.25em 0.25em 0.25em;
@@ -180,8 +182,8 @@ a.nav-link {
   content: "";
   position: absolute;
   border: 0.5em solid transparent;
-  border-top-color: #f28241;
-  border-right-color: #f28241;
+  border-top-color: #facd5c;
+  border-right-color: #facd5c;
   right: 100%;
   top: 0%;
   transform: skewY(20deg);
