@@ -31,10 +31,10 @@ body {
     70deg,
     #f9ed69 0%,
     #f9ed69 40%,
-    aliceblue calc(40% + 1px),
-    aliceblue 60%,
-    aliceblue calc(60% + 1px),
-    aliceblue 70%,
+    #ad4066 calc(40% + 1px),
+    #ad4066 60%,
+    #ad4066 calc(60% + 1px),
+    #ad4066 70%,
     #6a2c70 calc(70% + 1px),
     #6a2c70 100%
   );
@@ -144,7 +144,7 @@ a.nav-link {
 .speech-bubble {
   color: black;
   text-shadow: white 0px 0px 10px;
-  background-color: #facd5c;
+  background-color: #ffdcfd;
   padding: 0.5em 1em;
   position: relative;
   border-radius: 0 0.25em 0.25em 0.25em;
@@ -157,8 +157,8 @@ a.nav-link {
   content: "";
   position: absolute;
   border: 0.5em solid transparent;
-  border-top-color: #facd5c;
-  border-right-color: #facd5c;
+  border-top-color: #ffdcfd;
+  border-right-color: #ffdcfd;
   right: 100%;
   top: 0%;
   transform: skewY(20deg);
@@ -168,22 +168,28 @@ a.nav-link {
 .speech-bubble2 {
   color: black;
   text-shadow: white 0px 0px 10px;
-  background-color: #facd5c;
+  background-color: #ffdcfd;
   padding: 0.5em 1em;
   position: relative;
   border-radius: 0 0.25em 0.25em 0.25em;
   box-shadow: 7px 30px 40px #664400;
   transition: 0.5s;
   animation: speech 0.7s linear 1;
+  /* Custom font */
+  font-family: courier;
+  font-size: 20px;
   align-items: end;
+  line-height: 1.2;
+  letter-spacing: 1.4px;
+  font-weight: 600;
 }
 
 .speech-bubble2::after {
   content: "";
   position: absolute;
   border: 0.5em solid transparent;
-  border-top-color: #facd5c;
-  border-right-color: #facd5c;
+  border-top-color: #ffdcfd;
+  border-right-color: #ffdcfd;
   right: 100%;
   top: 0%;
   transform: skewY(20deg);
