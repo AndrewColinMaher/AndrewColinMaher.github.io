@@ -1,10 +1,14 @@
 # Online Portfolio for Cillian Maher
 
-Cillian Maher is an aspiring and budding youtuber that provides content such as animation shorts on his channel
+This project is an online portfolio I created for my son Cillian Maher who is an aspiring and budding youtuber that provides content such as animation shorts on his channel.
+He has requested myself to give him an online presence.
+This project is also a Milestone one project that is a static front end website built by using html css and front end technologies I have learnt while studying Software Development at the Code Insititue.
+
+This project will contain a homepage with navigational links to other pages of the site which will inculde a art page that will shocase his upcoming artwork, a video gallery page to shocase his video's past and upcoming works a contact page where users can get in touch and also a link where the client sells his own merchandise.
 
 [Visit the live project here](https://andrewcolinmaher.github.io/)
 
-<h2><img src="https://ibb.co/Xz8LY6Q"></h2>
+<img src="https://ibb.co/Xz8LY6Q">
 
 ## The aims and objectives
 
