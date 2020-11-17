@@ -98,6 +98,9 @@ The site will have a broader Social section that showcases collabotors with work
 
 - #### Colour Scheme
   - The Two main colours .........
+  
+  ![dev1](https://user-images.githubusercontent.com/26776439/99445411-6924bf00-2915-11eb-952a-a36d2b852383.PNG)
+  
 - #### Typography
   - The typography used was .......
 - #### Imagry
