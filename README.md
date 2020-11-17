@@ -104,7 +104,7 @@ The site will have a broader Social section that showcases collabotors with work
 
 ![Colours](https://user-images.githubusercontent.com/26776439/99447359-1a782480-2917-11eb-897a-e500253cd827.png)
 
-- The Two main colours .........
+- The Evolution of the Navbar, these screenshots are examples of the Sites main navigation but it tool up to much of the sites real estate expecially on mobile
 
 ![dev1](https://user-images.githubusercontent.com/26776439/99445411-6924bf00-2915-11eb-952a-a36d2b852383.PNG)
 
@@ -123,7 +123,7 @@ The site will have a broader Social section that showcases collabotors with work
 
 1.  [Bootstrap 4.5:](https://getbootstrap.com/)
 
-    - Bootsrap was used for the styling and responsiveness of the website.
+    - Bootstrap was used for the styling and responsiveness of the website.
 
 1.  [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the '...' font into the style.css file which is used on all pages throughout the project.
