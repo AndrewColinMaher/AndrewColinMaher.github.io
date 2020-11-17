@@ -96,11 +96,18 @@ The site will have a broader Social section that showcases collabotors with work
 
 ## Design and Process
 
-- #### Colour Scheme
-  - The Two main colours .........
-  
-  ![dev1](https://user-images.githubusercontent.com/26776439/99445411-6924bf00-2915-11eb-952a-a36d2b852383.PNG)
-  
+- #### Using these colours and experimenting with various split complementary and triad choices using [adobe color](https://color.adobe.com/)
+
+  This is a triad color considered for the call to action features
+
+  ![call2action|259x179,20%](https://user-images.githubusercontent.com/26776439/99450775-21a03200-2919-11eb-80d7-663185536928.png)
+
+![Colours](https://user-images.githubusercontent.com/26776439/99447359-1a782480-2917-11eb-897a-e500253cd827.png)
+
+- The Two main colours .........
+
+![dev1](https://user-images.githubusercontent.com/26776439/99445411-6924bf00-2915-11eb-952a-a36d2b852383.PNG)
+
 - #### Typography
   - The typography used was .......
 - #### Imagry
