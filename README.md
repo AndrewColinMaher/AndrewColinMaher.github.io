@@ -78,7 +78,7 @@ This site should have a messeage me contact form.
 - [Home Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/home.png)
 - [Gallery Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/gallery.png)
 - [Art Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/art.png)
-- [Contact Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/gallery.png)
+- [Contact Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/contact.png)
 
 ## Design
 
