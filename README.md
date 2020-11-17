@@ -32,13 +32,18 @@ The users goals of this site are
 ### Market Analysis
 
 The Primary and secondary target audience users of this site are in the age group of 10 years old an on upards to 30
-or more. I will be designing to be simple and attractive to new users, these could be children or young adults that came to the site from
+or more. I will be designing the site to be simple and attractive to its users, I will be using bright colours and animating svg images to make the site feel fun and interactive these could be children or young adults that came to the site from
 twitter, discord, reddit or even youtube.
 
 ### Features
 
 The site needs to be colourful and simplistic that evokes warmth anf fun. It should have some moving or animating features so I will be looking closley at css
 animations with tools such as Keyframes chrome tool to help me animate images and divs.
+
+This site is going to be fully responsive across desktop tablet and mobile devices. It will use a flex Grid to display art work and a video gallery which uses modals that incorporate a footer with links to the clients social media accounts
+when displaying videos.
+
+This site should have a messeage me contact form.
 
 ### User Experience
 
@@ -48,11 +53,16 @@ animations with tools such as Keyframes chrome tool to help me animate images an
 2. I want to be able to easily navigate throughout the site and find content.
 3. I want to locate his social media accounts to see his following to see how popular he is.
 
-#### Returning Visitor and Frequnet Visitor Goals
+#### Returning Visitor and Frequent Visitor Goals
 
 1. As a returning visitor I want to be able to find out how to get in touch with CJBlasts with any questions I may have
 2. I want to find links to his collaborators
 3. I want to find out what projects he is active on and check out his new content.
+
+### Frequnet Visitor Goals
+
+1. As a frequent visitor I want to fint out the latest activity CJBlasts is involved in.
+2. As a frequent visitor I want be able to message Cjblasts with updates proposals or fan works easily.
 
 ### Creative and Technical requirements for the new site
 
@@ -63,15 +73,10 @@ animations with tools such as Keyframes chrome tool to help me animate images an
 - To have his Merchandise advertised on the site
 - The Site may have sister projects and informative links should be considerd into the Design
 
-### Information Architecture
+### Wireframes
 
-#### Menu
-
-lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-
-#### Main Body
-
-#### Footer
+- [Home Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/home.png)
+- [Home Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/gallery.png)
 
 ## Design
 
