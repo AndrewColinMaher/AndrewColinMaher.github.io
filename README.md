@@ -43,6 +43,8 @@ animations with tools such as Keyframes chrome tool to help me animate images an
 This site is going to be fully responsive across desktop tablet and mobile devices. It will use a flex Grid to display art work and a video gallery which uses modals that incorporate a footer with links to the clients social media accounts
 when displaying videos.
 
+This site will have a link to an external site where he seels his merchandise.
+
 This site should have a messeage me contact form.
 
 ### User Experience
@@ -75,12 +77,18 @@ This site should have a messeage me contact form.
 
 ### Wireframes
 
+#### First Mock up
+
+- [Site Mock Up](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/mockup.pdf)
+
+#### low fidelity
+
 - [Home Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/home.png)
 - [Gallery Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/gallery.png)
 - [Art Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/art.png)
 - [Contact Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/contact.png)
 
-## Design
+## Design and Process
 
 - #### Colour Scheme
   - The Two main colours .........
