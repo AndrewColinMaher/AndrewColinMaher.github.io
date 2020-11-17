@@ -76,7 +76,8 @@ This site should have a messeage me contact form.
 ### Wireframes
 
 - [Home Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/home.png)
-- [Home Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/gallery.png)
+- [Gallery Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/gallery.png)
+- [Art Page](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/art.png)
 
 ## Design
 
