@@ -47,6 +47,12 @@ This site will have a link to an external site where he seels his merchandise.
 
 This site should have a messeage me contact form.
 
+### Upcoming Features
+
+This site will have a second gallery featuring fan art tht followers send cillian.
+The gallery will be broader in catagories such as Shorts, Shows, and tutorials
+The site will have a broader Social section that showcases collabotors with works and inspiration.
+
 ### User Experience
 
 #### First Time Visitor Goals
@@ -55,13 +61,13 @@ This site should have a messeage me contact form.
 2. I want to be able to easily navigate throughout the site and find content.
 3. I want to locate his social media accounts to see his following to see how popular he is.
 
-#### Returning Visitor and Frequent Visitor Goals
+#### Returning Visitor Goals
 
 1. As a returning visitor I want to be able to find out how to get in touch with CJBlasts with any questions I may have
 2. I want to find links to his collaborators
 3. I want to find out what projects he is active on and check out his new content.
 
-### Frequnet Visitor Goals
+#### Frequnet Visitor Goals
 
 1. As a frequent visitor I want to fint out the latest activity CJBlasts is involved in.
 2. As a frequent visitor I want be able to message Cjblasts with updates proposals or fan works easily.
@@ -100,7 +106,8 @@ This site should have a messeage me contact form.
 ## Technologies Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
