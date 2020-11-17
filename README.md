@@ -1,18 +1,16 @@
 # Online Portfolio for Cillian Maher
 
+## CJBlasts
+
 This project is an online portfolio I created for my son Cillian Maher who is an aspiring and budding youtuber that provides content such as animation shorts on his channel.
 He has requested myself to give him an online presence.
-This project is also a Milestone one project that is a static front end website built by using html css and front end technologies I have learnt while studying Software Development at the Code Insititue.
+This project is also a Milestone one project which is to be a static front end website built by using html css and front end technologies I have learnt while studying Software Development at the Code Insititue.
 
 This project will contain a homepage with navigational links to other pages of the site which will inculde a art page that will shocase his upcoming artwork, a video gallery page to shocase his video's past and upcoming works a contact page where users can get in touch and also a link where the client sells his own merchandise.
 
 [Visit the live project here](https://andrewcolinmaher.github.io/)
 
-<img src="https://ibb.co/Xz8LY6Q">
-
-## The aims and objectives
-
-The aims, objectives [stratgey] of the CJBlasts site is to give the client who is a budding youtuber a:
+The aims, objectives and [strategy](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io/blob/master/ms1assets/Strategy.png) of the CJBlasts site is to give the client:
 
 - Online Presence
 - To Showcase Content
@@ -22,22 +20,35 @@ The aims, objectives [stratgey] of the CJBlasts site is to give the client who i
 - Provide Links to merch that he is selling
 - Provide a form where were potential colloborators or Clients can get in touch
 
+The users goals of this site are
+
+- To find out more information about CJBLasts, does he exist on other platforms?
+- Can I see what other projects he is invovled in.
+- How much followers does he have.
+- Find out how to get in touch with CJBlasts.
+
+## UX
+
 ### Market Analysis
 
 The Primary and secondary target audience users of this site are in the age group of 10 years old an on upards to 30
-or more. The site has to be simple and attractive to new users, these could be children or young adults that came to the site from
+or more. I will be designing to be simple and attractive to new users, these could be children or young adults that came to the site from
 twitter, discord, reddit or even youtube.
-The site needs to be colourful and easy to navigate with interactive and or moving elemnents
+
+### Features
+
+The site needs to be colourful and simplistic that evokes warmth anf fun. It should have some moving or animating features so I will be looking closley at css
+animations with tools such as Keyframes chrome tool to help me animate images and divs.
 
 ### User Experience
 
-- #### First Time Visitor Goals
+#### First Time Visitor Goals
 
 1. As a first time visitor I want to learn about CJblasts, what is his content like.
 2. I want to be able to easily navigate throughout the site and find content.
 3. I want to locate his social media accounts to see his following to see how popular he is.
 
-- #### Returning Visitor and Frequnet Visitor Goals
+#### Returning Visitor and Frequnet Visitor Goals
 
 1. As a returning visitor I want to be able to find out how to get in touch with CJBlasts with any questions I may have
 2. I want to find links to his collaborators
