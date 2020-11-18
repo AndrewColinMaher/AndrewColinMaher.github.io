@@ -104,12 +104,22 @@ The site will have a broader Social section that showcases collabotors with work
 
 ![Colours](https://user-images.githubusercontent.com/26776439/99447359-1a782480-2917-11eb-897a-e500253cd827.png)
 
-- The Evolution of the Navbar, these screenshots are examples of the Sites main navigation but it tool up to much of the sites real estate expecially on mobile
+Changes to the Navbar, these screenshots are examples of the Sites main navigation but it tool up to much of the sites real estate expecially on [mobile](https://ibb.co/Z6yCxQh)
 
-![dev1](https://user-images.githubusercontent.com/26776439/99445411-6924bf00-2915-11eb-952a-a36d2b852383.PNG)
+![oldnavbar](https://user-images.githubusercontent.com/26776439/99538453-e6e3db80-29a4-11eb-93c0-c4fd68d59e3c.png)
 
-- #### Typography
-  - The typography used was .......
+Here i eventually settled on moving the navbar into my top banner, to save on valuable space on the website. Also I eventually got my brand and merch links to float eft and right with my remaining links centered.
+![new navbar](https://user-images.githubusercontent.com/26776439/99538043-51e0e280-29a4-11eb-95c2-1ab22561572f.png)
+
+To make my links for fun and attractive I used [Hover.css](https://ianlunn.github.io/Hover/) as this had plenty of options to make links and icons move or do something when hoverd over or cicked. I liked to use hover pulse and hover grow on suitable elements.
+
+#### Typography
+
+My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.font) mostly for titles as this is what he uses on his content.
+Helvetica has been used in conjuntcion with Molot for I thought it gave better visual flow with Molot than Roboto and other contenders.
+Cursave
+
+- The typography used was .......
 - #### Imagry
   - The Imagry used .......
 
