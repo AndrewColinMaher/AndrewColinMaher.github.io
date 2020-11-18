@@ -37,15 +37,17 @@ twitter, discord, reddit or even youtube.
 
 ### Features
 
-The site needs to be colourful and simplistic that evokes warmth anf fun. It should have some moving or animating features so I will be looking closley at css
+The site needs to be colourful and simplistic that evokes warmth anf fun. It should have some moving or animating features, css
 animations with tools such as Keyframes chrome tool to help me animate images and divs.
 
 This site is going to be fully responsive across desktop tablet and mobile devices. It will use a flex Grid to display art work and a video gallery which uses modals that incorporate a footer with links to the clients social media accounts
 when displaying videos.
 
-This site will have a link to an external site where he seels his merchandise.
+- The Video Gallery will use modals that have a footer which will contain links to Cj's social media
 
-This site should have a messeage me contact form.
+- This site will have a link to an external site where he seels his merchandise.
+
+- This site will have a messeage me contact form.
 
 ### Upcoming Features
 
@@ -113,15 +115,17 @@ Here i eventually settled on moving the navbar into my top banner, to save on va
 
 To make my links for fun and attractive I used [Hover.css](https://ianlunn.github.io/Hover/) as this had plenty of options to make links and icons move or do something when hoverd over or cicked. I liked to use hover pulse and hover grow on suitable elements.
 
+#### Media
+
+The CJ figure on the home page and contact page were drawn by me they are based upon CJblasts avatar all other images and videos are created by Cillian Maher.
+
+On the home page and contact page I added interactivity with the SVG images, on the home page I made the sunhades drop onto the Avatar and on the contact page I made his avatar slid into view from the left.
+
 #### Typography
 
 My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.font) mostly for titles as this is what he uses on his content.
-Helvetica has been used in conjuntcion with Molot for I thought it gave better visual flow with Molot than Roboto and other contenders.
-Cursave
-
-- The typography used was .......
-- #### Imagry
-  - The Imagry used .......
+[Helvetica](https://www.myfonts.com/fonts/linotype/helvetica/) has been used in conjuntcion with Molot for I thought it gave better visual flow than Roboto and other contenders.<br />
+[Sniglet](https://fonts.google.com/specimen/Sniglet?selection.family=Roboto&sidebar.open=true) I used to the more personal type on the site as this has a youthful friendly appearence and so I thought it would work good with my target audience.
 
 ## Technologies Used
 
@@ -133,10 +137,34 @@ Cursave
 
 1.  [Bootstrap 4.5:](https://getbootstrap.com/)
 
-    - Bootstrap was used for the styling and responsiveness of the website.
+    - Bootstrap was used for responsive elements such as navbar, gallery and ease of the website.
 
 1.  [Google Fonts:](https://fonts.google.com/)
+
     - Google fonts were used to import the '...' font into the style.css file which is used on all pages throughout the project.
+
+1.  [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html)
+
+    - Illustrator was used to create SVG images, the svg code was used on the website
+
+1.  [Font Awesome](https://fontawesome.com/)
+
+    - Font Awesome was used to add font icons to the site
+
+1.  [Hover.css](https://ianlunn.github.io/Hover/)
+
+    - Hover.css was used to add hover effects over links, icons and titles
+
+1.  [Keyframes](https://chrome.google.com/webstore/detail/keyframes/dalaiblmpeklkjnpeocmaojcfldmbfck?hl=en)
+
+    - Keyframes Chrome Extention was used to add movement to my svg elements.
+
+1.  [Adobe Color](https://color.adobe.com/create/color-wheel)
+
+    - Adobe Color was used to find and match colours for this website.
+
+1.  [TinyPng](https://tinypng.com/)
+    - TinyPng is a websight I used to compress all the png and jpeg images used on this website.
 
 ## Testing
 

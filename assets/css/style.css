@@ -1,7 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
 @font-face {
   font-family: HelveticaRegular;
   src: url(../css/fonts/HelveticaNowText-Regular.otf);
@@ -133,7 +131,7 @@ a.nav-link {
   margin: 0;
   background: transparent;
   font-size: 25px;
-  font-family: courier;
+  font-family: "Sniglet", cursive;
   font-weight: 800;
   display: flex;
   /* justify-content: center; */
@@ -173,7 +171,7 @@ a.nav-link {
   transition: 0.5s;
   animation: speech 0.7s linear 1;
   /* More custom code */
-  font-family: courier;
+  font-family: "Sniglet", cursive;
   font-size: 20px;
   align-items: end;
   line-height: 1.2;
