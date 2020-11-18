@@ -11,11 +11,6 @@
 }
 
 @font-face {
-  font-family: HelveticaThin;
-  src: url(../css/fonts/HelveticaNowText-Thin.otf);
-}
-
-@font-face {
   font-family: Molot;
   src: url(../css/fonts/Molot.otf);
 }
@@ -23,7 +18,7 @@
 :root {
   --active-color: #f26444;
 }
-
+/* I customimzed and changed colours taken from a pattern at https://gradienta.io/ */
 body {
   font-family: "HelveticaMedium";
   height: 100%;
@@ -96,7 +91,7 @@ h1 {
 }
 /*       // special */
 
-/*       Navigation */
+/*  Customized Bootsrap Navigation */
 .navbar .navbar-brand {
   font-family: "Molot";
   color: #6a2c70;
@@ -131,7 +126,7 @@ a.nav-link {
 /*     //Navigation */
 
 /*       Home Page Top Fold*/
-/* Speech bubble is based on SoftCode Sourced YouTube see Readme */
+/* Speech bubble has customized font properties and colours, original source found https://www.youtube.com/watch?v=4n-HajZScKQ*/
 .bubble-box {
   margin: 0;
   background: transparent;
@@ -175,7 +170,7 @@ a.nav-link {
   box-shadow: 7px 30px 40px #664400;
   transition: 0.5s;
   animation: speech 0.7s linear 1;
-  /* Custom font */
+  /* More custom code */
   font-family: courier;
   font-size: 20px;
   align-items: end;
@@ -195,6 +190,7 @@ a.nav-link {
   transform: skewY(20deg);
   transform-origin: 100% 100%;
 }
+/*Keyframes copied from original source found https://www.youtube.com/watch?v=4n-HajZScKQ*/
 @keyframes speech {
   0% {
     top: -20px;
@@ -215,19 +211,19 @@ a.nav-link {
   }
 }
 
-div.card-body.showcase {
+/* div.card-body.showcase {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
   width: 32rem;
   background-color: white;
-}
+} */
 
 /* *Footer       */
 footer {
   background-color: aliceblue;
-  min-height: 100px;
+  height: 100px;
   border-top: solid 2px#da50fa;
 }
 
@@ -250,10 +246,9 @@ footer {
   color: black;
   height: 100px;
 }
-
 /*        //*Footer */
 
-/*     Gallery Modals */
+/* Video modals copied from https://mdbootstrap.com/plugins/jquery/video/ */
 .gallery {
   -webkit-column-count: 3;
   -moz-column-count: 3;
@@ -290,7 +285,7 @@ footer {
   }
 }
 
-/*Custom Galery  styles Social Links video wiindows*/
+/*Customized Social Links and image borders on modals*/
 .btn-sm {
   padding: 0.25rem 0.5rem;
   font-size: 1.5rem;
@@ -313,7 +308,7 @@ footer {
 /*       //Gallery */
 
 /* Art Page */
-/* W3School ..Creating an Image Grid https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
+/* Flex Grid taken from W3School https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
 .row .art-row {
   display: flex;
   flex-wrap: wrap;
@@ -351,6 +346,8 @@ footer {
 /*  //Art */
 
 /* Contact US  */
+/* orignial form is called "under the sea" found at https://mdbootstrap.com/plugins/jquery/video/ 
+Some custom colors and font properties in below code*/
 #form {
   height: 100%;
   background-color: transparent;
@@ -363,6 +360,7 @@ form {
   width: 400px;
   color: black;
   position: relative;
+  /* To make animation slide behind the form */
   z-index: 5;
 }
 
