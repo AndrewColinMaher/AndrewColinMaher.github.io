@@ -183,4 +183,48 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
 
 ## Deployment
 
+This project was developed using the [Gitpod IDE](https://www.gitpod.io/), committed to git and pushed to GitHub using the built in function within Gitpod.
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/AJGreaves/portrait-artist), the following steps were taken:
+
+1. Log into GitHub.
+2. From the list of repositories on the screen, select AndrewColinMaher.github.io.
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+7. Scroll to the **GitHub Pages** section and click the link to the deployed website.
+
+### How to run this project locally
+
+To clone this project into Gitpod you will need:
+
+- A Github account. [Create a Github account here](https://github.com/)
+- Recomended to use Chrome browser
+
+Steps to follow
+
+1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
+1. Recomended to restart the browser after installation
+1. Log into [Gitpod](https://gitpod.com) with your gitpod account.
+1. Navigate to the [Project GitHub repository](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io)
+1. Click the green **"Gitpod"** button in the top right corner of the respository
+1. A new gitpod workspace will be created from the code in github where you can run the project repository locally.
+
+To run the project locally:
+
+- Navigate to [Project GitHub repository](https://github.com/AndrewColinMaher/AndrewColinMaher.github.io).
+- On the repository you want, click on the **Code** dropdown menu.
+- There is an option to download a ZIP file of the repository, download and open in your text editor / application to run locally
+  - **Additionaly to run locally from the code dropdown menu**
+
+1. Select Clone with HTTPs, copy the clone URL for the repository.
+1. In your local IDE/ text editor open the terminal.
+1. Set up a place on your computer where you want the directory to be created
+1. Type "git clone", and then paste the URL you copied in Step 1.
+
+1. Press Enter. Your local clone will be created.
+
+For further information on cloning a repository from GitHub [click here](https://help.github.com/en/articles/cloning-a-repository).
+
 ## Credits
