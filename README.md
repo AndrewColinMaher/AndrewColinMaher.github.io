@@ -168,15 +168,6 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
 
 ## Testing
 
-<a href="https://gyazo.com/fe4994050327d0f4d103c7955abc9ce8"><img src="https://i.gyazo.com/fe4994050327d0f4d103c7955abc9ce8.png" alt="Image from Gyazo" width="1221.6"/></a>
-
-## LightHouse Chrome Tools
-
-- Best Practices, had hightlighted that Links to cross-origin destinations are unsafe and that Adding rel="noopener" or rel="noreferrer" to all exteral links
-  to impove serurty vulnerabilities and pissible perfomrmance issues
-
-- And to use rel="preload" in my Head links to sprecify its importance and level up its load times.
-
 ### Further Testing
 
 ### Known Bugs
