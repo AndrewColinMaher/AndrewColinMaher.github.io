@@ -164,7 +164,15 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
     - Adobe Color was used to find and match colours for this website.
 
 1.  [TinyPng](https://tinypng.com/)
+
     - TinyPng is a websight I used to compress all the png and jpeg images used on this website.
+
+1.  [GitHub](https://github.com/)
+
+    - GithHub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
+
+1.  [Gitpod](https://www.gitpod.io/docs/browser-extension/)
+    - Gitpod is used for version control to push code into the github repositry it is an open-source Kubernetes application providing prebuilt, collaborative development environments in your browser - powered by VS Code.
 
 ## Testing
 
