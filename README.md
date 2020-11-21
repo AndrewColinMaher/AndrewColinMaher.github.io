@@ -219,3 +219,21 @@ To run the project locally:
 For further information on cloning a repository from GitHub [click here](https://help.github.com/en/articles/cloning-a-repository).
 
 ## Credits
+
+### Content
+
+- The speech bubbles on the home page where copied from [SoftCode](https://www.youtube.com/watch?v=4n-HajZScKQ) and I customized the code for my site.
+- The colourful body background code was copied from [gradienta](https://gradienta.io/) and I customized the code for my site.
+- The video modal gallery was copied from [mdbootstrap](https://mdbootstrap.com/plugins/jquery/video/) and I customized the code for my site.
+- The Flex Grid was copied from [W3Schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) and I customized the code for my site.
+- The contact form was copied from [mockplus](https://www.mockplus.com/blog/post/contact-us-page-template) and I customized the code for my site.
+
+### Media
+
+- The Videos on the site was obtained from [CJBlasts](https://www.youtube.com/channel/UCu1IbqTtDa-7ZE2TJ-E0V5A?)
+- The images used as placeholders on video modals was provided by [CJBlasts](https://www.youtube.com/channel/UCu1IbqTtDa-7ZE2TJ-E0V5A?)
+- The SVG images on the home page and contact page where created by me on [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html)
+
+### Acknowledgements
+
+- I like to thanks my mentor Narender Singh for his guidance, I also like to thank my class mate Daisy Mc Girr for helping troubleshoot some problems with me.
