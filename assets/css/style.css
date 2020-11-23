@@ -210,15 +210,31 @@ a.nav-link {
     top: -20px;
   }
 }
+.title {
+  color: #e94b3cff;
+}
+.social-media {
+  background: #2d2926ff;
+  border-radius: 15%;
+}
 
-/* div.card-body.showcase {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  min-height: 1px;
-  padding: 1.25rem;
-  width: 32rem;
-  background-color: white;
-} */
+.social-menuitem {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.social-menuitem a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.social-menuitem a i {
+  font-size: 100px;
+  display: block;
+}
 
 /* *Footer       */
 footer {
