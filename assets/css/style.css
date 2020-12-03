@@ -325,6 +325,9 @@ footer {
   text-shadow: 0.1px 0.1px 0.1px #000;
 }
 
+.modal, a{
+    cursor:pointer;
+}
 .showcase-link,
 a:hover,
 a:focus,
