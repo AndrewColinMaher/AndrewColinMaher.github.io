@@ -40,7 +40,9 @@ body {
 #purple {
   color: #6a2c70;
 }
-
+.purple {
+  color: #6a2c70;
+}
 .discord {
   color: #7289da;
 }
@@ -306,6 +308,19 @@ footer {
   font-size: 1.5rem;
   line-height: 2.5;
   border-radius: 0.2rem;
+}
+.showcase-video {
+  background: #fff;
+  border: 2px solid #da50fa;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.showcase-link,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
 .social-links.btn-fr {
