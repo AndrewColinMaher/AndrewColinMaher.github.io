@@ -302,7 +302,7 @@ footer {
   }
 }
 
-/*Customized Social Links and image borders on modals*/
+/* Gallery */
 .btn-sm {
   padding: 0.25rem 0.5rem;
   font-size: 1.5rem;
@@ -314,6 +314,15 @@ footer {
   border: 2px solid #da50fa;
   box-shadow: 10px 10px 8px #888888;
 }
+.embed-responsive-16by9 {
+  min-height: 315px;
+}
+.showcase-text {
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  line-height: 1.6;
+  min-height: 315px;
+}
 
 .showcase-link,
 a:hover,
@@ -322,7 +331,10 @@ a:active {
   text-decoration: none;
   color: inherit;
 }
-
+/*Customized Social Links and image borders on modals*/
+     max-width: 1000px;
+    max-height: 563px;
+}
 .social-links.btn-fr {
   padding: 0.25rem 0.5rem;
   font-size: 1.5rem;
