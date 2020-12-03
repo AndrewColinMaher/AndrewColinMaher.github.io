@@ -215,7 +215,6 @@ a.nav-link {
 }
 .social-media {
   background: #2d2926ff;
-  border-radius: 15%;
 }
 
 .social-menuitem {
@@ -227,7 +226,7 @@ a.nav-link {
   color: #fff;
   font-size: 24px;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 2px;
 }
 
