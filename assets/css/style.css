@@ -248,7 +248,7 @@ footer {
   bottom: 0;
   position: fixed;
   background-color: aliceblue;
-  height: 100px;
+  height: 100%;
   border-top: solid 2px#da50fa;
 }
 
