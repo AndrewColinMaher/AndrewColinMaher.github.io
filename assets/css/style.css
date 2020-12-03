@@ -320,8 +320,9 @@ footer {
 .showcase-text {
   letter-spacing: 2px;
   word-spacing: 4px;
-  line-height: 1.6;
+  line-height: 1.5;
   min-height: 315px;
+  text-shadow: 0.1px 0.1px 0.1px #000;
 }
 
 .showcase-link,
