@@ -109,9 +109,6 @@ h1 {
 .my-navbar {
   font-family: "HelveticaMedium";
   background-color: aliceblue;
-   position: fixed;
-   top:0;
-   left:0;
    width:100%;
    z-index: 3;
 }
@@ -242,11 +239,13 @@ a.nav-link {
   display: block;
 }
 
+ .social-media  a:hover {
+  color: #ff4301;
+    
+}
 /* *Footer       */
 footer {
-  left: 0;
-  bottom: 0;
-  position: fixed;
+ 
   background-color: aliceblue;
   height: 100%;
   border-top: solid 2px#da50fa;
