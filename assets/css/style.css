@@ -150,6 +150,7 @@ a.nav-link {
   box-shadow: 7px 30px 40px #664400;
   transition: 0.5s;
   animation: speech 0.7s linear 1;
+  
 }
 
 .speech-bubble::after {
@@ -177,7 +178,7 @@ a.nav-link {
   /* More custom code */
   font-family: "Sniglet", cursive;
   font-size: 20px;
-  align-items: end;
+  /* align-items: end; */
   line-height: 1.2;
   letter-spacing: 1.4px;
   font-weight: 600;
