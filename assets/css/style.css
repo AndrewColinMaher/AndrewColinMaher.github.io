@@ -1,71 +1,73 @@
 @import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
 
 @font-face {
-  font-family: HelveticaRegular;
-  src: url(../css/fonts/HelveticaNowText-Regular.otf);
+    font-family: HelveticaRegular;
+    src: url(../css/fonts/HelveticaNowText-Regular.otf);
 }
 
 @font-face {
-  font-family: HelveticaMedium;
-  src: url(../css/fonts/HelveticaNowText-Medium.otf);
+    font-family: HelveticaMedium;
+    src: url(../css/fonts/HelveticaNowText-Medium.otf);
 }
 
 @font-face {
-  font-family: Molot;
-  src: url(../css/fonts/Molot.otf);
+    font-family: Molot;
+    src: url(../css/fonts/Molot.otf);
 }
 
 :root {
-  --active-color: #f26444;
+    --active-color: #f26444;
 }
+
 /* I customimzed and changed colours taken from a pattern at https://gradienta.io/ */
 body {
-  font-family: "HelveticaMedium";
-  height: 100%;
-  background: linear-gradient(
-    70deg,
-    #f9ed69 0%,
-    #f9ed69 40%,
-    #ad4066 calc(40% + 1px),
-    #ad4066 60%,
-    #ad4066 calc(60% + 1px),
-    #ad4066 70%,
-    #6a2c70 calc(70% + 1px),
-    #6a2c70 100%
-  );
-  background-repeat: no-repeat;
-  background-size: cover;
+    font-family: "HelveticaMedium";
+    height: 100%;
+    background: linear-gradient(70deg,
+            #f9ed69 0%,
+            #f9ed69 40%,
+            #ad4066 calc(40% + 1px),
+            #ad4066 60%,
+            #ad4066 calc(60% + 1px),
+            #ad4066 70%,
+            #6a2c70 calc(70% + 1px),
+            #6a2c70 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #purple {
-  color: #6a2c70;
+    color: #6a2c70;
 }
+
 .purple {
-  color: #6a2c70;
+    color: #6a2c70;
 }
+
 .discord {
-  color: #7289da;
+    color: #7289da;
 }
 
 .twitter {
-  color: #00acee;
+    color: #00acee;
 }
 
 .reddit {
-  color: #ff4301;
+    color: #ff4301;
 }
 
 .red {
-  color: #ff0000;
+    color: #ff0000;
 }
 
 .sale span {
-  color: #f26444;
+    color: #f26444;
 }
 
 .sale a {
-  color: #6a2c70;
+    color: #6a2c70;
 }
+
 /*      //Colours */
 
 /*        special */
@@ -73,410 +75,439 @@ h1,
 h2,
 h3,
 h4 {
-  margin: 0;
+    margin: 0;
 }
 
 .uppercase {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .inline-block {
-  display: inline-block;
+    display: inline-block;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
 }
 
 h1 {
-  font-family: "Molot";
+    font-family: "Molot";
 }
+
 /*       // special */
 
 /*  Customized Bootsrap Navigation */
 .navbar .navbar-brand {
-  font-family: "Molot";
-  color: #6a2c70;
-  font-size: 34px;
-  max-height: 40px;
-  max-width: 30%;
-  letter-spacing: 2.5px;
-  overflow: visible;
-  padding-top: 0;
-  padding-bottom: 0;
+    font-family: "Molot";
+    color: #6a2c70;
+    font-size: 34px;
+    max-height: 40px;
+    max-width: 30%;
+    letter-spacing: 2.5px;
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .my-navbar {
-  font-family: "HelveticaMedium";
-  background-color: aliceblue;
-   width:100%;
-   z-index: 3;
+    font-family: "HelveticaMedium";
+    background-color: aliceblue;
+    width: 100%;
+    z-index: 3;
 }
 
 a.nav-link {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .navbar-nav .nav-link {
-  color: #6a2c70;
-  letter-spacing: 2.2px;
+    color: #6a2c70;
+    letter-spacing: 2.2px;
 }
 
-.navbar-nav > .active > a {
-  background-color: #6a2c70;
-  color: #fff;
-  border-radius: 30%;
+.navbar-nav>.active>a {
+    background-color: #6a2c70;
+    color: #fff;
+    border-radius: 30%;
 }
+
 /*     //Navigation */
 
 /*       Home Page Top Fold*/
 /* Speech bubble has customized font properties and colours, original source found https://www.youtube.com/watch?v=4n-HajZScKQ*/
 .bubble-box {
-  margin: 0;
-  background: transparent;
-  font-size: 25px;
-  font-family: "Sniglet", cursive;
-  font-weight: 800;
-  display: flex;
-  width:300px;
-  /* justify-content: center; */
+    margin: 0;
+    background: transparent;
+    font-size: 25px;
+    font-family: "Sniglet", cursive;
+    font-weight: 800;
+    display: flex;
+    width: 300px;
+    /* justify-content: center; */
 }
+
 .speech-bubble {
-  color: black;
-  text-shadow: white 0px 0px 10px;
-  background-color: #ffdcfd;
-  /* padding: 0.5em 1em; */
-  /* position: relative; */
-  border-radius: 0 0.25em 0.25em 0.25em;
-  box-shadow: 7px 30px 40px #664400;
-  transition: 0.5s;
-  animation: speech 0.7s linear 1;
-  
+    color: black;
+    text-shadow: white 0px 0px 10px;
+    background-color: #ffdcfd;
+    padding: 0.5em 1em;
+    position: relative;
+    border-radius: 0 0.25em 0.25em 0.25em;
+    box-shadow: 7px 30px 40px #664400;
+    transition: 0.5s;
+    animation: speech 0.7s linear 1;
+
 }
 
 .speech-bubble::after {
-  content: "";
-  position: absolute;
-  border: 0.5em solid transparent;
-  border-top-color: #ffdcfd;
-  border-right-color: #ffdcfd;
-  right: 100%;
-  top: 0%;
-  transform: skewY(20deg);
-  transform-origin: 100% 100%;
+    content: "";
+    position: absolute;
+    border: 0.5em solid transparent;
+    border-top-color: #ffdcfd;
+    border-right-color: #ffdcfd;
+    right: 100%;
+    top: 0%;
+    transform: skewY(20deg);
+    transform-origin: 100% 100%;
 }
 
 .speech-bubble2 {
-  color: black;
-  text-shadow: white 0px 0px 10px;
-  background-color: #ffdcfd;
-  /* padding: 0.5em 1em;
-  position: relative; */
-  border-radius: 0 0.25em 0.25em 0.25em;
-  box-shadow: 7px 30px 40px #664400;
-  transition: 0.5s;
-  animation: speech 0.7s linear 1;
-  /* More custom code */
-  font-family: "Sniglet", cursive;
-  font-size: 20px;
-  /* align-items: end; */
-  line-height: 1.2;
-  letter-spacing: 1.4px;
-  font-weight: 600;
+    color: black;
+    text-shadow: white 0px 0px 10px;
+    background-color: #ffdcfd;
+    padding: 0.5em 1em;
+    position: relative;
+    border-radius: 0 0.25em 0.25em 0.25em;
+    box-shadow: 7px 30px 40px #664400;
+    transition: 0.5s;
+    animation: speech 0.7s linear 1;
+    /* More custom code */
+    font-family: "Sniglet", cursive;
+    font-size: 20px;
+    /* align-items: end; */
+    line-height: 1.2;
+    letter-spacing: 1.4px;
+    font-weight: 600;
 }
 
 .speech-bubble2::after {
-  content: "";
-  position: absolute;
-  border: 0.5em solid transparent;
-  border-top-color: #ffdcfd;
-  border-right-color: #ffdcfd;
-  right: 100%;
-  top: 0%;
-  transform: skewY(20deg);
-  transform-origin: 100% 100%;
+    content: "";
+    position: absolute;
+    border: 0.5em solid transparent;
+    border-top-color: #ffdcfd;
+    border-right-color: #ffdcfd;
+    right: 100%;
+    top: 0%;
+    transform: skewY(20deg);
+    transform-origin: 100% 100%;
 }
+
 /*Keyframes copied from original source found https://www.youtube.com/watch?v=4n-HajZScKQ*/
 @keyframes speech {
-  0% {
-    top: -20px;
-  }
-  25% {
-    top: 5px;
-    box-shadow: 7px 40px 40px #664400;
-  }
-  50% {
-    top: 20px;
-  }
-  75% {
-    top: -20px;
-    box-shadow: 7px -10px 50px #664400;
-  }
-  0% {
-    top: -20px;
-  }
+
+    0% {
+        top: -20px;
+    }
+
+    25% {
+        top: 5px;
+        box-shadow: 7px 40px 40px #664400;
+    }
+
+    50% {
+        top: 20px;
+    }
+
+    75% {
+        top: -20px;
+        box-shadow: 7px -10px 50px #664400;
+    }
+
+    0% {
+        top: -20px;
+    }
 }
+
 .title {
-  color: #e94b3cff;
+    color: #e94b3cff;
 }
+
 .social-media {
-  background: #2d2926ff;
+    background: #2d2926ff;
 }
 
 .social-menuitem {
-  text-align: center;
-  padding-bottom: 20px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .social-menuitem a {
-  color: #fff;
-  font-size: 24px;
-  text-decoration: none;
-  font-weight: 200;
-  letter-spacing: 2px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 2px;
 }
 
 .social-menuitem a i {
-  font-size: 100px;
-  display: block;
+    font-size: 100px;
+    display: block;
 }
 
- .social-media  a:hover {
-  color: #ff4301;
-    
+.social-media a:hover {
+    color: #ff4301;
+
 }
+
 /* *Footer       */
 footer {
- 
-  background-color: aliceblue;
-  height: 100%;
-  border-top: solid 2px#da50fa;
+
+    background-color: aliceblue;
+    height: 100%;
+    border-top: solid 2px#da50fa;
 }
 
 .social-links.btn-fr {
-  padding: 0.25rem 0.5rem;
-  font-size: 2rem;
-  line-height: 2.5;
+    padding: 0.25rem 0.5rem;
+    font-size: 2rem;
+    line-height: 2.5;
 }
 
 .footer-item a i {
-  padding-top: 8px;
-  display: inline-block;
-  font-size: 35px;
-  color: #f26444;
+    padding-top: 8px;
+    display: inline-block;
+    font-size: 35px;
+    color: #f26444;
 }
 
 .footer-item a {
-  width: 100%;
-  text-decoration: none;
-  color: black;
-  height: 100px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    height: 100px;
 }
+
 /*        //*Footer */
 
 /* Video modals copied from https://mdbootstrap.com/plugins/jquery/video/ */
 .gallery {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  -webkit-column-width: 33%;
-  -moz-column-width: 33%;
-  column-width: 33%;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
 }
+
 .gallery .pics {
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
 }
+
 .gallery .animation {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
 }
 
 @media (max-width: 450px) {
-  .gallery {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    -webkit-column-width: 100%;
-    -moz-column-width: 100%;
-    column-width: 100%;
-  }
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
 }
 
 @media (max-width: 400px) {
-  .btn.filter {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
-  }
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
 }
 
 /* Gallery */
 .btn-sm {
-  padding: 0.25rem 0.5rem;
-  font-size: 1.5rem;
-  line-height: 2.5;
-  border-radius: 0.2rem;
-}
-.showcase-video {
-  background: #fff;
-  border: 2px solid #da50fa;
-  box-shadow: 10px 10px 8px #888888;
-}
-.embed-responsive-16by9 {
-  min-height: 315px;
-}
-.showcase-text {
-  letter-spacing: 2px;
-  word-spacing: 4px;
-  line-height: 1.5;
-  min-height: 315px;
-  text-shadow: 0.1px 0.1px 0.1px #000;
+    padding: 0.25rem 0.5rem;
+    font-size: 1.5rem;
+    line-height: 2.5;
+    border-radius: 0.2rem;
 }
 
-.modal, a{
-    cursor:pointer;
+.showcase-video {
+    background: #fff;
+    border: 2px solid #da50fa;
+    box-shadow: 10px 10px 8px #888888;
 }
+
+.embed-responsive-16by9 {
+    min-height: 315px;
+}
+
+.showcase-text {
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    line-height: 1.5;
+    min-height: 315px;
+    text-shadow: 0.1px 0.1px 0.1px #000;
+}
+
+.modal,
+a {
+    cursor: pointer;
+}
+
 .showcase-link,
 a:hover,
 a:focus,
 a:active {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
+
 /*Customized Social Links and image borders on modals*/
-     max-width: 1000px;
-    max-height: 563px;
+max-width: 1000px;
+max-height: 563px;
 }
+
 .social-links.btn-fr {
-  padding: 0.25rem 0.5rem;
-  font-size: 1.5rem;
-  line-height: 2.5;
+    padding: 0.25rem 0.5rem;
+    font-size: 1.5rem;
+    line-height: 2.5;
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
-  border: 2px solid #da50fa;
-  box-shadow: 10px 10px 8px #888888;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #da50fa;
+    box-shadow: 10px 10px 8px #888888;
 }
+
 /*       //Gallery */
 
 /* Art Page */
 /* Flex Grid taken from W3School https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
 .row .art-row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
 }
 
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
+
 /*  //Art */
 
 /* Contact US  */
 /* orignial form is called "under the sea" found at https://www.mockplus.com/blog/post/contact-us-page-template 
 Some custom colors and font properties in below code*/
 #form {
-  height: 100%;
-  background-color: transparent;
-  overflow: hidden;
-  position: relative;
+    height: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    position: relative;
 }
 
 form {
-  margin: 0 auto;
-  width: 400px;
-  color: black;
-  position: relative;
-  /* To make animation slide behind the form */
-  z-index: 5;
+    margin: 0 auto;
+    width: 400px;
+    color: black;
+    position: relative;
+    /* To make animation slide behind the form */
+    z-index: 5;
 }
 
 label,
 input,
 textarea {
-  display: block;
-  width: 400px;
+    display: block;
+    width: 400px;
 }
+
 input,
 textarea {
-  width: 400px;
-  border-radius: 20px;
-  outline: none;
-  padding: 10px;
-  font-family: "Sniglet", cursive;
-  font-size: 1em;
-  color: #676767;
-  transition: border 0.5s;
-  -webkit-transition: border 0.5s;
-  -moz-transition: border 0.5s;
-  -o-transition: border 0.5s;
-  border: solid 3px #da50fa;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    width: 400px;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    font-family: "Sniglet", cursive;
+    font-size: 1em;
+    color: #676767;
+    transition: border 0.5s;
+    -webkit-transition: border 0.5s;
+    -moz-transition: border 0.5s;
+    -o-transition: border 0.5s;
+    border: solid 3px #da50fa;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 input:focus,
 textarea:focus {
-  border: solid 3px #da50fa;
+    border: solid 3px #da50fa;
 }
 
 textarea {
-  height: 100px;
-  resize: none;
-  overflow: auto;
+    height: 100px;
+    resize: none;
+    overflow: auto;
 }
+
 input[type="submit"] {
-  background-color: #f26444;
-  color: white;
-  height: 50px;
-  cursor: pointer;
-  margin-top: 30px;
-  font-size: 1.29em;
-  font-family: "Sniglet", cursive;
-  -webkit-transition: background-color 0.5s;
-  -moz-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
-  transition: background-color 0.5s;
+    background-color: #f26444;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 1.29em;
+    font-family: "Sniglet", cursive;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
 }
+
 input[type="submit"]:hover {
-  background-color: #f26444;
+    background-color: #f26444;
 }
+
 label {
-  font-size: 1.5em;
-  margin-top: 20px;
-  padding-left: 20px;
+    font-size: 1.5em;
+    margin-top: 20px;
+    padding-left: 20px;
 }
 
 .slids {
-  position: relative;
-  top: -250px;
-  left: 10px;
+    position: relative;
+    top: -250px;
+    left: 10px;
 }
