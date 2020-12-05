@@ -174,6 +174,9 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
 1.  [Gitpod](https://www.gitpod.io/docs/browser-extension/)
     - Gitpod is used for version control to push code into the github repositry it is an open-source Kubernetes application providing prebuilt, collaborative development environments in your browser - powered by VS Code.
 
+1.  [FREEFORMATTER](https://www.freeformatter.com/)
+    - Freeformatter is an online developer tool, used for formating code.
+
 ## Testing
 
 ### Further Testing
