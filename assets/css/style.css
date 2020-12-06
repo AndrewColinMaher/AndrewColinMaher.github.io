@@ -340,7 +340,7 @@ footer {
     background: #fff;
     border: 2px solid #da50fa;
     box-shadow: 10px 10px 8px #888888;
-    width: 95%;
+    width: 90%;
 }
 
 .embed-responsive-16by9 {
@@ -434,6 +434,7 @@ max-height: 563px;
 Some custom colors and font properties in below code*/
 #form {
     height: 100%;
+    width: 80%;
     background-color: transparent;
     overflow: hidden;
     position: relative;
