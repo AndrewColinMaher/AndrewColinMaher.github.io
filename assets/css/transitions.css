@@ -241,8 +241,8 @@
 
 /* // CJ slides in */
 
-/* Speech Bubbles */
-@keyframes yourAnimation2 {
+Speech Bubbles */
+/* @keyframes yourAnimation2 {
     0% {
         transform: translateX(200px);
     }
@@ -255,6 +255,6 @@
 .speech1 {
     animation: yourAnimation2 2s forwards 0s linear;
 
-}
+} */
 
-/* //Speech Bubbles */
+/* //Speech Bubbles
