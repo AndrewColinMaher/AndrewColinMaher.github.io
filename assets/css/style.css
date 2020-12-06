@@ -70,9 +70,9 @@ body {
     color: #6a2c70;
 }
 
-/*      //Colours */
+/*........................................... //Colours */
 
-/*        special */
+/* .......................................... special */
 h1,
 h2,
 h3,
@@ -96,9 +96,9 @@ h1 {
     font-family: "Molot";
 }
 
-/*       // special */
+/* .............................................................// special */
 
-/*  Customized Bootsrap Navigation */
+/*  .........................................Customized Bootsrap Navigation */
 .navbar .navbar-brand {
     font-family: "Molot";
     color: #6a2c70;
@@ -133,10 +133,11 @@ a.nav-link {
     border-radius: 30%;
 }
 
-/*     //Navigation */
+/*  ...........................//.Navigation */
 
-/*       Home Page Top Fold*/
-/* Speech bubble has customized font properties and colours, original source found https://www.youtube.com/watch?v=4n-HajZScKQ*/
+/* .................................................Home Page Top Fold*/
+/* Added an extra speech bubble and customized font properties and colours, original source found https://www.youtube.com/watch?v=4n-HajZScKQ*/
+
 .bubble-box {
     margin: 0;
     background: transparent;
@@ -145,34 +146,14 @@ a.nav-link {
     font-weight: 800;
     display: flex;
     width: 300px;
-    /* justify-content: center; */
 }
 
 .speech-bubble {
-    color: black;
-    text-shadow: white 0px 0px 10px;
-    background-color: #ffdcfd;
-    padding: 0.5em 1em;
-    position: relative;
-    border-radius: 0 0.25em 0.25em 0.25em;
-    box-shadow: 7px 30px 40px #664400;
-    transition: 0.5s;
-    animation: speech 0.7s linear 1;
+    font-size: 26px !important;
 
 }
 
-.speech-bubble::after {
-    content: "";
-    position: absolute;
-    border: 0.5em solid transparent;
-    border-top-color: #ffdcfd;
-    border-right-color: #ffdcfd;
-    right: 100%;
-    top: 0%;
-    transform: skewY(20deg);
-    transform-origin: 100% 100%;
-}
-
+.speech-bubble,
 .speech-bubble2 {
     color: black;
     text-shadow: white 0px 0px 10px;
@@ -186,13 +167,14 @@ a.nav-link {
     /* More custom code */
     font-family: "Sniglet", cursive;
     font-size: 20px;
-    /* align-items: end; */
     line-height: 1.2;
     letter-spacing: 1.4px;
     font-weight: 600;
+    align-content: justify;
 }
 
-.speech-bubble2::after {
+.speech-bubble2::after,
+.speech-bubble::after {
     content: "";
     position: absolute;
     border: 0.5em solid transparent;
@@ -203,6 +185,9 @@ a.nav-link {
     transform: skewY(20deg);
     transform-origin: 100% 100%;
 }
+
+
+
 
 /*Keyframes copied from original source found https://www.youtube.com/watch?v=4n-HajZScKQ*/
 @keyframes speech {
@@ -261,7 +246,7 @@ a.nav-link {
 
 }
 
-/* *Footer       */
+/* ....................................................*Footer       */
 footer {
 
     background-color: aliceblue;
@@ -375,9 +360,6 @@ a:active {
 }
 
 /*Customized Social Links and image borders on modals*/
-max-width: 1000px;
-max-height: 563px;
-}
 
 .social-links.btn-fr {
     padding: 0.25rem 0.5rem;
