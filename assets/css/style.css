@@ -287,6 +287,8 @@ footer {
     height: 100px;
 }
 
+
+
 /*        //*Footer */
 
 /* Video modals copied from https://mdbootstrap.com/plugins/jquery/video/ */
@@ -432,13 +434,6 @@ max-height: 563px;
 /* Contact US  */
 /* orignial form is called "under the sea" found at https://www.mockplus.com/blog/post/contact-us-page-template 
 Some custom colors and font properties in below code*/
-#form {
-    height: 100%;
-    width: 80%;
-    background-color: transparent;
-    overflow: hidden;
-    position: relative;
-}
 
 form {
     margin: 0 auto;
@@ -446,19 +441,21 @@ form {
     color: black;
     position: relative;
     /* To make animation slide behind the form */
+    overflow: hidden;
     z-index: 5;
+    overflow: hidden;
 }
 
 label,
 input,
 textarea {
     display: block;
-    width: 400px;
+    width: 80%;
 }
 
 input,
 textarea {
-    width: 400px;
+    width: 80%;
     border-radius: 20px;
     outline: none;
     padding: 10px;
@@ -510,11 +507,6 @@ label {
     padding-left: 20px;
 }
 
-.slids {
-    position: relative;
-    top: -250px;
-    left: 10px;
-}
 
 .contact-box {
     letter-spacing: 2px;
