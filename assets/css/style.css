@@ -34,6 +34,8 @@ body {
             #6a2c70 100%);
     background-repeat: no-repeat;
     background-size: cover;
+    backdrop-filter: blur(10px);
+    /* backdrop-filter: invert(1); */
 }
 
 #purple {
@@ -289,7 +291,7 @@ footer {
 
 
 
-/*        //*Footer */
+/*.............................................//*Footer */
 
 /* Video modals copied from https://mdbootstrap.com/plugins/jquery/video/ */
 .gallery {
@@ -330,7 +332,7 @@ footer {
     }
 }
 
-/* Gallery */
+/*................................................ //Gallery */
 .btn-sm {
     padding: 0.25rem 0.5rem;
     font-size: 1.5rem;
@@ -392,7 +394,8 @@ max-height: 563px;
 
 /*       //Gallery */
 
-/* Art Page */
+/* ..........................................................Art Page */
+
 /* Flex Grid taken from W3School https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
 .row .art-row {
     display: flex;
@@ -429,6 +432,8 @@ max-height: 563px;
     }
 }
 
+
+
 /*  //Art */
 
 /* Contact US  */
@@ -437,7 +442,7 @@ Some custom colors and font properties in below code*/
 
 form {
     margin: 0 auto;
-    width: 400px;
+    width: 80%;
     color: black;
     position: relative;
     /* To make animation slide behind the form */
