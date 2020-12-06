@@ -340,6 +340,7 @@ footer {
     background: #fff;
     border: 2px solid #da50fa;
     box-shadow: 10px 10px 8px #888888;
+    width: 95%;
 }
 
 .embed-responsive-16by9 {
@@ -347,8 +348,10 @@ footer {
 }
 
 .showcase-text {
+    padding-left: 20px;
+    text-align: center;
     letter-spacing: 2px;
-    word-spacing: 4px;
+    word-spacing: 3px;
     line-height: 1.5;
     min-height: 315px;
     text-shadow: 0.1px 0.1px 0.1px #000;
