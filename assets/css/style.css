@@ -502,17 +502,44 @@ label {
     font-size: 18px;
 }
 
-/* @media only screen and (max-width: 600px) {
+svg.my-fig {}
+
+@media (max-width: 767px) {
     .speech1 {
         order: 1;
     }
 
-    .my-fig {
+    svg.my-fig {
         order: 2;
+        height: 700px;
+        width: auto;
+        position: relative;
+        ;
+    }
+}
+
+
+
+@media (max-width: 1199px) {
+    svg.my-fig {
+        height: 400px;
+        width: auto;
+        position: relative;
+        content-visibility: auto;
+        top: 350px;
+        right: 130px;
+        display: block;
+
     }
 
     .social-media {
-        order: 3;
+        position: relative;
+        top: 200px;
     }
 
-} */
+    footer {
+        position: relative;
+        top: 190px;
+    }
+
+}
