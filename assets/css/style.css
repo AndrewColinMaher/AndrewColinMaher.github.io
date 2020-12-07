@@ -514,7 +514,7 @@ svg.my-fig {}
         height: 700px;
         width: auto;
         position: relative;
-        ;
+
     }
 }
 
@@ -540,6 +540,27 @@ svg.my-fig {}
     footer {
         position: relative;
         top: 190px;
+    }
+
+    .speech-bubble2::after,
+    .speech-bubble::after {
+        content: "";
+        position: absolute;
+        border: 0.5em solid transparent;
+        border-top-color: #ffdcfd;
+        border-right-color: #ffdcfd;
+        right: 80%;
+        top: 100%;
+        transform: skewY(5deg);
+        transform-origin: 100% 100%;
+    }
+
+
+    .speech-bubble,
+    .speech-bubble2 {
+        border-radius: 0.25em 0.25em 0.25em 0.25em;
+
+
     }
 
 }
