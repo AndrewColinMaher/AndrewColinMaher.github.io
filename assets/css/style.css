@@ -524,12 +524,13 @@ label {
 /* .................Home Page...........................Media Queries */
 @media (max-width: 575px) and (max-width: 767px) {
     svg.my-fig {
-        height: 410px;
+        height: 510px;
         width: auto;
         position: relative;
         content-visibility: auto;
         top: 350px;
-        right: 100%;
+       
+        left:-120%;
         display: block;
 
     }
@@ -546,9 +547,6 @@ label {
 
     .speech-bubble2::after,
     .speech-bubble::after {
-        content: "";
-        position: absolute;
-        border: 0.5em solid transparent;
         border-top-color: #ffdcfd;
         border-right-color: #ffdcfd;
         right: 80%;
@@ -561,8 +559,8 @@ label {
     .speech-bubble,
     .speech-bubble2 {
         border-radius: 0.25em 0.25em 0.25em 0.25em;
-
-
     }
 
 }
+
+/* orientation : landscape */
