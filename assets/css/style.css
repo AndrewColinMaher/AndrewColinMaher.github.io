@@ -246,57 +246,10 @@ a.nav-link {
 
 }
 
-/* ....................................................*Footer       */
-footer {
 
-    background-color: aliceblue;
-    height: 100%;
-    border-top: solid 2px#da50fa;
-}
-
-.social-links.btn-fr {
-    padding: 0.25rem 0.5rem;
-    font-size: 2rem;
-    line-height: 2.5;
-}
-
-.footer-item a i {
-    padding-top: 8px;
-    display: inline-block;
-    font-size: 35px;
-    color: #f26444;
-}
-
-.footer-item a {
-    width: 100%;
-    text-decoration: none;
-    color: black;
-    height: 100px;
-    letter-spacing: 2px;
-    font-size: 16px;
-
-}
-
-footer .footer-title {
-    color: #6a2c70;
-    font-weight: 400;
-    letter-spacing: 3px;
-}
-
-footer p {
-    letter-spacing: 2px;
-}
-
-hr.new1 {
-    border-top: 1px solid #808080;
-    width: 40%;
-}
-
-
-/*.............................................//*Footer */
 
 /* Video modals copied from https://mdbootstrap.com/plugins/jquery/video/ */
-.gallery {
+/* .gallery {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
@@ -332,7 +285,7 @@ hr.new1 {
         padding-left: 1.1rem;
         padding-right: 1.1rem;
     }
-}
+} */
 
 /*................................................ //Gallery */
 .btn-sm {
@@ -354,7 +307,7 @@ hr.new1 {
 }
 
 .showcase-text {
-    padding-left: 20px;
+    padding: 25px;
     text-align: center;
     letter-spacing: 2px;
     word-spacing: 3px;
@@ -391,10 +344,9 @@ a:active {
     box-shadow: 10px 10px 8px #888888;
 }
 
-/*       //Gallery */
+/*   ............................................... //Gallery */
 
-/* ..........................................................Art Page */
-
+/* .............................................................Art Page */
 /* Flex Grid taken from W3School https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
 .row .art-row {
     display: flex;
@@ -402,7 +354,6 @@ a:active {
     padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
     flex: 25%;
     max-width: 25%;
@@ -415,30 +366,11 @@ a:active {
     width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
+/*  ...................................................//Art */
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
-}
-
-
-
-/*  //Art */
-
-/* Contact US  */
 /* orignial form is called "under the sea" found at https://www.mockplus.com/blog/post/contact-us-page-template 
 Some custom colors and font properties in below code*/
-
+/*................................................................................... Contact US  */
 form {
     margin: 0 auto;
     width: 80%;
@@ -521,6 +453,69 @@ label {
     font-size: 18px;
 }
 
+/* ......................................................*Footer       */
+footer {
+    background-color: aliceblue;
+    height: 100%;
+    border-top: solid 2px#da50fa;
+}
+
+.social-links.btn-fr {
+    padding: 0.25rem 0.5rem;
+    font-size: 2rem;
+    line-height: 2.5;
+}
+
+.footer-item a i {
+    padding-top: 8px;
+    display: inline-block;
+    font-size: 35px;
+    color: #f26444;
+}
+
+.footer-item a {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    height: 100px;
+    letter-spacing: 2px;
+    font-size: 16px;
+
+}
+
+footer .footer-title {
+    color: #6a2c70;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+footer p {
+    letter-spacing: 2px;
+}
+
+hr.new1 {
+    border-top: 1px solid #808080;
+    width: 40%;
+}
+
+/*.................................................//*Footer */
+
+/* .....................................................Art Flex Grid */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* ............................................///.Art Flex Grid */
 /* .................Home Page...........................Media Queries */
 @media (max-width: 575px) and (max-width: 767px) {
     svg.my-fig {
@@ -529,8 +524,8 @@ label {
         position: relative;
         content-visibility: auto;
         top: 350px;
-       
-        left:-120%;
+
+        left: -120%;
         display: block;
 
     }
@@ -540,7 +535,7 @@ label {
         top: 200px;
     }
 
-    footer {
+    .footer-home {
         position: relative;
         top: 190px;
     }
