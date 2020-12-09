@@ -219,7 +219,48 @@ a.nav-link {
 
 }
 
+<<<<<<< HEAD
 /* Video modals copied from https://mdbootstrap.com/plugins/jquery/video/ */
+=======
+/* Video modals copied from https://mdbootstrap.com/plugins/jquery/video/ */
+/* .gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+}
+
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+@media (max-width: 450px) {
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+} */
+>>>>>>>branch1
 
 /* ...............Custom Code for modals...................................Gallery */
 .btn-sm {
@@ -241,7 +282,7 @@ a.nav-link {
 }
 
 .showcase-text {
-    padding-left: 20px;
+    padding: 25px;
     text-align: center;
     letter-spacing: 2px;
     word-spacing: 3px;
@@ -278,10 +319,9 @@ a:active {
     box-shadow: 10px 10px 8px #888888;
 }
 
-/*       //Gallery */
+/*   ............................................... //Gallery */
 
-/* ..........................................................Art Page */
-
+/* .............................................................Art Page */
 /* Flex Grid taken from W3School https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
 .art-row {
     display: flex;
@@ -289,7 +329,6 @@ a:active {
     padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
     flex: 25%;
     max-width: 25%;
@@ -302,12 +341,18 @@ a:active {
     width: 100%;
 }
 
+<<<<<<< HEAD
 /*  ..............................//Art */
 
 /* Contact US  */
+=======
+/*  ...................................................//Art */
+
+>>>>>>>branch1
+
 /* orignial form is called "under the sea" found at https://www.mockplus.com/blog/post/contact-us-page-template 
 Some custom colors and font properties in below code*/
-
+/*................................................................................... Contact US  */
 form {
     margin: 0 auto;
     width: 80%;
@@ -390,9 +435,8 @@ label {
     font-size: 18px;
 }
 
-/* ....................................................*Footer       */
+/* ......................................................*Footer       */
 footer {
-
     background-color: aliceblue;
     height: 100%;
     border-top: solid 2px#da50fa;
@@ -436,31 +480,46 @@ hr.new1 {
     width: 40%;
 }
 
+<<<<<<< HEAD
 /*.............................................//*Footer */
 /* .........................................................Art page Flex Grid */
 
-@media screen and (max-width: 800px) {
+=======
+/*.................................................//*Footer */
+
+/* .....................................................Art Flex Grid */
+>>>>>>>branch1 @media screen and (max-width: 800px) {
     .column {
         flex: 50%;
         max-width: 50%;
     }
 }
 
-.column {
+<<<<<<< HEAD .column {
     flex: 100%;
     max-width: 100%;
 }
 }
 
 /* .................Home Page..................................Media Queries */
-@media (max-width: 575px) and (max-width: 767px) {
+=======@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* ............................................///.Art Flex Grid */
+/* .................Home Page...........................Media Queries */
+>>>>>>>branch1 @media (max-width: 575px) and (max-width: 767px) {
     svg.my-fig {
-        height: 410px;
+        height: 510px;
         width: auto;
         position: relative;
         content-visibility: auto;
         top: 350px;
-        right: 100%;
+
+        left: -120%;
         display: block;
 
     }
@@ -470,30 +529,27 @@ hr.new1 {
         top: 200px;
     }
 
-    .home-footer {
-        position: relative;
-        top: 190px;
-    }
+   .home-footer {
+           position: relative;
+            top: 190px;
+        }
 
-    .speech-bubble2::after,
-    .speech-bubble::after {
-        content: "";
-        position: absolute;
-        border: 0.5em solid transparent;
-        border-top-color: #ffdcfd;
-        border-right-color: #ffdcfd;
-        right: 80%;
-        top: 100%;
-        transform: skewY(5deg);
-        transform-origin: 100% 100%;
-    }
+        .speech-bubble2::after,
+        .speech-bubble::after {
+            border-top-color: #ffdcfd;
+            border-right-color: #ffdcfd;
+            right: 80%;
+            top: 100%;
+            transform: skewY(5deg);
+            transform-origin: 100% 100%;
+        }
 
 
-    .speech-bubble,
-    .speech-bubble2 {
-        border-radius: 0.25em 0.25em 0.25em 0.25em;
-
+        .speech-bubble,
+        .speech-bubble2 {
+            border-radius: 0.25em 0.25em 0.25em 0.25em;
+        }
 
     }
 
-}
+    /* orientation : landscape */
