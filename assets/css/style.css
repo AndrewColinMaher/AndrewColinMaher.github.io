@@ -188,33 +188,6 @@ a.nav-link {
     transform-origin: 100% 100%;
 }
 
-
-/*Keyframes copied from original source found https://www.youtube.com/watch?v=4n-HajZScKQ*/
-@keyframes speech {
-
-    0% {
-        top: -20px;
-    }
-
-    25% {
-        top: 5px;
-        box-shadow: 7px 40px 40px #664400;
-    }
-
-    50% {
-        top: 20px;
-    }
-
-    75% {
-        top: -20px;
-        box-shadow: 7px -10px 50px #664400;
-    }
-
-    0% {
-        top: -20px;
-    }
-}
-
 .title {
     color: #e94b3cff;
 }
@@ -246,95 +219,9 @@ a.nav-link {
 
 }
 
-/* ....................................................*Footer       */
-footer {
-
-    background-color: aliceblue;
-    height: 100%;
-    border-top: solid 2px#da50fa;
-}
-
-.social-links.btn-fr {
-    padding: 0.25rem 0.5rem;
-    font-size: 2rem;
-    line-height: 2.5;
-}
-
-.footer-item a i {
-    padding-top: 8px;
-    display: inline-block;
-    font-size: 35px;
-    color: #f26444;
-}
-
-.footer-item a {
-    width: 100%;
-    text-decoration: none;
-    color: black;
-    height: 100px;
-    letter-spacing: 2px;
-    font-size: 16px;
-
-}
-
-footer .footer-title {
-    color: #6a2c70;
-    font-weight: 400;
-    letter-spacing: 3px;
-}
-
-footer p {
-    letter-spacing: 2px;
-}
-
-hr.new1 {
-    border-top: 1px solid #808080;
-    width: 40%;
-}
-
-
-/*.............................................//*Footer */
-
 /* Video modals copied from https://mdbootstrap.com/plugins/jquery/video/ */
-.gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-    column-width: 33%;
-}
 
-.gallery .pics {
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease;
-}
-
-.gallery .animation {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-}
-
-@media (max-width: 450px) {
-    .gallery {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        -webkit-column-width: 100%;
-        -moz-column-width: 100%;
-        column-width: 100%;
-    }
-}
-
-@media (max-width: 400px) {
-    .btn.filter {
-        padding-left: 1.1rem;
-        padding-right: 1.1rem;
-    }
-}
-
-/*................................................ //Gallery */
+/* ...............Custom Code for modals...................................Gallery */
 .btn-sm {
     padding: 0.25rem 0.5rem;
     font-size: 1.5rem;
@@ -396,7 +283,7 @@ a:active {
 /* ..........................................................Art Page */
 
 /* Flex Grid taken from W3School https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
-.row .art-row {
+.art-row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
@@ -415,25 +302,7 @@ a:active {
     width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
-}
-
-
-
-/*  //Art */
+/*  ..............................//Art */
 
 /* Contact US  */
 /* orignial form is called "under the sea" found at https://www.mockplus.com/blog/post/contact-us-page-template 
@@ -521,7 +390,69 @@ label {
     font-size: 18px;
 }
 
-/* .................Home Page...........................Media Queries */
+/* ....................................................*Footer       */
+footer {
+
+    background-color: aliceblue;
+    height: 100%;
+    border-top: solid 2px#da50fa;
+}
+
+.social-links.btn-fr {
+    padding: 0.25rem 0.5rem;
+    font-size: 2rem;
+    line-height: 2.5;
+}
+
+.footer-item a i {
+    padding-top: 8px;
+    display: inline-block;
+    font-size: 35px;
+    color: #f26444;
+}
+
+.footer-item a {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    height: 100px;
+    letter-spacing: 2px;
+    font-size: 16px;
+
+}
+
+footer .footer-title {
+    color: #6a2c70;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+footer p {
+    letter-spacing: 2px;
+}
+
+hr.new1 {
+    border-top: 1px solid #808080;
+    width: 40%;
+}
+
+/*.............................................//*Footer */
+/* .........................................................Art page Flex Grid */
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+.column {
+    flex: 100%;
+    max-width: 100%;
+}
+}
+
+/* .................Home Page..................................Media Queries */
 @media (max-width: 575px) and (max-width: 767px) {
     svg.my-fig {
         height: 410px;
@@ -539,7 +470,7 @@ label {
         top: 200px;
     }
 
-    footer {
+    .home-footer {
         position: relative;
         top: 190px;
     }

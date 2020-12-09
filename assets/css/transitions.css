@@ -1,42 +1,31 @@
-/* *Animation logo Eyes */
-#eyes {
-    animation: squeeze 2.4s infinite;
-}
+/*Keyframes Speech Bubbles, copied from original source found https://www.youtube.com/watch?v=4n-HajZScKQ*/
+@keyframes speech {
 
-@keyframes blink {
-    90% {
-        transform: none;
-        animation-timing-function: ease-in;
+    0% {
+        top: -20px;
     }
 
-    93% {
-        transform: translateY(15px) scaleY(0);
+    25% {
+        top: 5px;
+        box-shadow: 7px 40px 40px #664400;
     }
 
-    100% {
-        animation-timing-function: ease-out;
-    }
-}
-
-
-@keyframes squeeze {
-    90% {
-        transform: none;
-        animation-timing-function: ease-in;
+    50% {
+        top: 20px;
     }
 
-    93% {
-        transform: translateY(3px) scaleY(0.8);
+    75% {
+        top: -20px;
+        box-shadow: 7px -10px 50px #664400;
     }
 
-    100% {
-        animation-timing-function: ease-out;
+    0% {
+        top: -20px;
     }
 }
 
-/* //*animation logo eyes */
-
-/* Sun Glases */
+/* ............................................//Speech Bubbles */
+/* ........................................................Sun Glases */
 @keyframes yourAnimation {
     0% {
         transform: rotate(0) translateY(-15%);
@@ -53,9 +42,9 @@
     animation: yourAnimation 3s forwards 0s ease;
 }
 
-/* //Sun Glases */
+/* .......................................//Sun Glases */
 
-/* *HOVER.CSS Grow animation */
+/* .................................................*HOVER.CSS Grow animation */
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -73,9 +62,9 @@
     transform: scale(1.1);
 }
 
-/* //*banner grow animation */
+/* ............................//*banner grow animation */
 
-/*      HOVER.CSS Pulse-Grow */
+/*    ...................................  HOVER.CSS Pulse-Grow */
 @-webkit-keyframes hvr-pulse {
     25% {
         -webkit-transform: scale(1.1);
@@ -241,21 +230,3 @@
 }
 
 /* .......................................................................// CJ slides in */
-
-Speech Bubbles */
-/* @keyframes yourAnimation2 {
-    0% {
-        transform: translateX(200px);
-    }
-
-    7% {
-        transform: rotate(xx) translateX(900px);
-    }
-}
-
-.speech1 {
-    animation: yourAnimation2 2s forwards 0s linear;
-
-} */
-
-/* //Speech Bubbles*/
