@@ -511,15 +511,14 @@ hr.new1 {
 
 /* ............................................///.Art Flex Grid */
 /* .................Home Page...........................Media Queries */
->>>>>>>branch1 @media (max-width: 575px) and (max-width: 767px) {
+ @media (max-width: 575px) and (max-width: 767px) {
     svg.my-fig {
         height: 510px;
         width: auto;
         position: relative;
         content-visibility: auto;
         top: 350px;
-
-        left: -120%;
+         right: 100%;
         display: block;
 
     }
