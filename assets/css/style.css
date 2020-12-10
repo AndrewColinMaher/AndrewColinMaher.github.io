@@ -492,12 +492,12 @@ hr.new1 {
 /* .................Home Page....................................Media Queries */
  @media (max-width: 575px) and (max-width: 767px) {
     svg.my-fig {
-        height: 510px;
+        height: 500px;
         width: auto;
         position: relative;
         content-visibility: auto;
         top: 350px;
-         right: 100%;
+         right: 115%;
         display: block;
 
     }
