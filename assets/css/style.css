@@ -396,14 +396,23 @@ label {
 
 
 .contact-box {
-    letter-spacing: 2px;
-    word-spacing: 4px;
-    line-height: 1.5;
-    min-height: 315px;
-    text-shadow: 0.1px 0.1px 0.1px #000;
-    font-size: 18px;
+     color: black;
+    text-shadow: white 0px 0px 10px;
+    background-color: #ffdcfd;
+    padding: 0.5em 1em;
+    position: relative;
+    border-radius: 0 0.25em 0.25em 0.25em;
+    box-shadow: 7px 30px 40px #664400;
+    transition: 0.5s;
+    animation: speech 0.7s linear 1;
+    /* More custom code */
+    font-family: "Sniglet", cursive;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 1.4px;
+    font-weight: 600;
+    align-content: justify;
 }
-
 /* ......................................................*Footer       */
 footer {
     background-color: aliceblue;
