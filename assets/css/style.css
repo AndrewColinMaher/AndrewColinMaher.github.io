@@ -23,18 +23,12 @@
 body {
     font-family: "HelveticaMedium";
     height: 100%;
-    background: linear-gradient(70deg,
-            #f9ed69 0%,
-            #f9ed69 40%,
-            #ad4066 calc(40% + 1px),
-            #ad4066 60%,
-            #ad4066 calc(60% + 1px),
-            #ad4066 70%,
-            #6a2c70 calc(70% + 1px),
-            #6a2c70 100%);
+    background: linear-gradient(235deg, #FFFFFF 0%, #000F25 100%), linear-gradient(180deg, #6100FF 0%, #000000 100%), linear-gradient(235deg, #FFA3AC 0%, #FFA3AC 40%, #00043C calc(40% + 1px), #00043C 60%, #005D6C calc(60% + 1px), #005D6C 70%, #00C9B1 calc(70% + 1px), #00C9B1 100%), linear-gradient(125deg, #FFA3AC 0%, #FFA3AC 40%, #00043C calc(40% + 1px), #00043C 60%, #005D6C calc(60% + 1px), #005D6C 70%, #00C9B1 calc(70% + 1px), #00C9B1 100%);
+    background-blend-mode: soft-light, screen, darken, normal;
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(8px);
+
     /* overflow: hidden; */
 }
 
@@ -102,7 +96,7 @@ h1 {
 /*  .........................................Customized Bootsrap Navigation */
 .navbar .navbar-brand {
     font-family: "Molot";
-    color: #6a2c70;
+    color: aliceblue;
     font-size: 34px;
     max-height: 40px;
     max-width: 30%;
@@ -110,11 +104,20 @@ h1 {
     overflow: visible;
     padding-top: 0;
     padding-bottom: 0;
+    position: relative;
+    top: 15px;
+    left: 10px;
+      transform: rotate(-15deg); 
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+
 }
 
 .my-navbar {
     font-family: "HelveticaMedium";
-    background-color: aliceblue;
+    background-color: transparent;
     width: 100%;
     z-index: 3;
 }
@@ -126,10 +129,16 @@ a.nav-link {
 .navbar-nav .nav-link {
     color: #6a2c70;
     letter-spacing: 2.2px;
+    font-weight: 400;
+    letter-spacing: 2.5PX;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.267);
 }
 
+.nav-item a i{
+    color: #FA7F7A;
+}
 .navbar-nav>.active>a {
-    background-color: #6a2c70;
+    background-color: #B889FA;
     color: #fff;
     border-radius: 30%;
 }
@@ -162,7 +171,7 @@ a.nav-link {
     padding: 0.5em 1em;
     position: relative;
     border-radius: 0 0.25em 0.25em 0.25em;
-    box-shadow: 7px 30px 40px #664400;
+    box-shadow: 7px 30px 40px #0e0370c5;
     transition: 0.5s;
     animation: speech 0.7s linear 1;
     /* More custom code */
@@ -401,7 +410,7 @@ label {
     padding: 0.5em 1em;
     position: relative;
     border-radius: 0 0.25em 0.25em 0.25em;
-    box-shadow: 7px 30px 40px #664400;
+    box-shadow: 7px 30px 40px #0e0370c5;
     transition: 0.5s;
     animation: speech 0.7s linear 1;
     /* More custom code */
@@ -412,7 +421,6 @@ label {
     font-weight: 600;
     align-content: justify;
 }
-
 
 /* ......................................................*Footer       */
 footer {
