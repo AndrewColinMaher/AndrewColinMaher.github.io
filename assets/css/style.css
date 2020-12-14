@@ -38,7 +38,6 @@ body {
     /* overflow: hidden; */
 }
 
-.wrapper {}
 
 #purple {
     color: #6a2c70;
@@ -431,7 +430,7 @@ footer {
 .footer-item a i {
     padding-top: 8px;
     display: inline-block;
-    font-size: 35px;
+    font-size: 25px;
     color: #f26444;
 }
 
