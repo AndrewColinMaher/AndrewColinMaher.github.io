@@ -107,11 +107,11 @@ h1 {
     position: relative;
     top: 15px;
     left: 10px;
-      transform: rotate(-15deg); 
-  -webkit-transform: rotate(-15deg);
-  -moz-transform: rotate(-15deg);
-  -ms-transform: rotate(-15deg);
-  -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
 
 }
 
@@ -134,9 +134,10 @@ a.nav-link {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.267);
 }
 
-.nav-item a i{
+.nav-item a i {
     color: #FA7F7A;
 }
+
 .navbar-nav>.active>a {
     background-color: #B889FA;
     color: #fff;
@@ -200,8 +201,11 @@ a.nav-link {
     color: #e94b3cff;
 }
 
+/* //  inset border style inspired from "https://tympanus.net/Tutorials/BasicReadyToUseCSSStyles/" */
 .social-media {
     background: #2d2926ff;
+    box-shadow: inset 0 0 7px 4px rgba(75, 71, 71, 0.836);
+
 }
 
 .social-menuitem {
@@ -404,7 +408,7 @@ label {
 
 
 .contact-box {
-     color: black;
+    color: black;
     text-shadow: white 0px 0px 10px;
     background-color: #ffdcfd;
     padding: 0.5em 1em;
@@ -471,50 +475,51 @@ hr.new1 {
 /* .........................................................Art page Flex Grid */
 /* .............................................................Art Page */
 /* Flex Grid taken from W3School https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
- .row .art-row {
+.row .art-row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-    }
+}
 
-    /* Create four equal columns that sits next to each other */
-    .column {
+/* Create four equal columns that sits next to each other */
+.column {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-    }
+}
 
-    .column img {
+.column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-    }
+}
 
-    /* Responsive layout - makes a two column-layout instead of four columns */
-    @media screen and (max-width: 800px) {
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
     .column {
-    flex: 50%;
-    max-width: 50%;
+        flex: 50%;
+        max-width: 50%;
     }
-    }
+}
 
-    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 600px) {
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
     .column {
-    flex: 100%;
-    max-width: 100%;
+        flex: 100%;
+        max-width: 100%;
     }
-    }
+}
+
 /* ............................................///.Art Flex Grid */
 
 /* .................Home Page....................................Media Queries */
- @media (max-width: 575px) and (max-width: 767px) {
+@media (max-width: 575px) and (max-width: 767px) {
     svg.my-fig {
         height: 500px;
         width: auto;
         position: relative;
         top: 350px;
-         right: 115%;
+        right: 115%;
         display: block;
 
     }
@@ -524,36 +529,37 @@ hr.new1 {
         top: 200px;
     }
 
-   .footer-home {
-           position: relative;
-            top: 190px;
-        }
-
-        .speech-bubble2::after,
-        .speech-bubble::after {
-            border-top-color: #ffdcfd;
-            border-right-color: #ffdcfd;
-            right: 80%;
-            top: 100%;
-            transform: skewY(5deg);
-            transform-origin: 100% 100%;
-        }
-
-
-        .speech-bubble,
-        .speech-bubble2 {
-            border-radius: 0.25em 0.25em 0.25em 0.25em;
-        }
-
+    .footer-home {
+        position: relative;
+        top: 190px;
     }
 
- @media (max-width: 575px) and (max-width: 767px) {
-   label,
-input,
-textarea {
-    display: block;
-    width: 100%;
+    .speech-bubble2::after,
+    .speech-bubble::after {
+        border-top-color: #ffdcfd;
+        border-right-color: #ffdcfd;
+        right: 80%;
+        top: 100%;
+        transform: skewY(5deg);
+        transform-origin: 100% 100%;
+    }
+
+
+    .speech-bubble,
+    .speech-bubble2 {
+        border-radius: 0.25em 0.25em 0.25em 0.25em;
+    }
+
 }
 
+@media (max-width: 575px) and (max-width: 767px) {
 
+    label,
+    input,
+    textarea {
+        display: block;
+        width: 100%;
     }
+
+
+}
