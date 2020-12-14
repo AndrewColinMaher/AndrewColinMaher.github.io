@@ -413,6 +413,8 @@ label {
     font-weight: 600;
     align-content: justify;
 }
+
+
 /* ......................................................*Footer       */
 footer {
     background-color: aliceblue;
@@ -504,7 +506,6 @@ hr.new1 {
         height: 500px;
         width: auto;
         position: relative;
-        content-visibility: auto;
         top: 350px;
          right: 115%;
         display: block;
@@ -538,4 +539,14 @@ hr.new1 {
         }
 
     }
+/* .................Contact Page....................................Media Queries */
+ @media (max-width: 575px) and (max-width: 767px) {
+   label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+}
 
+
+    }
