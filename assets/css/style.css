@@ -136,18 +136,19 @@ a.nav-link {
 }
 
 .nav-item a i {
-    color: #FA7F7A;
+    color: #ffdcfd;
+    z-index: 3;
+}
+
+.navbar-nav>.active>a>i {
+    color: #ff4301;
+
 }
 
 .navbar-nav>.active>a {
     background-color: #B889FA;
     color: #fff;
     border-radius: 30%;
-}
-
-.navbar-nav {
-    display: flex;
-    justify-content: space-around;
 }
 
 .navbar-expand-lg ul {
