@@ -131,6 +131,7 @@ a.nav-link {
     letter-spacing: 2.2px;
     font-weight: 400;
     letter-spacing: 2.5PX;
+    font-size: 24px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.267);
 }
 
@@ -142,6 +143,15 @@ a.nav-link {
     background-color: #B889FA;
     color: #fff;
     border-radius: 30%;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-expand-lg ul {
+    padding-top: 20px;
 }
 
 /*  ...........................//.Navigation */
