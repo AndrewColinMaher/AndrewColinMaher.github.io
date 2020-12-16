@@ -51,9 +51,14 @@ when displaying videos.
 
 ### Upcoming Features
 
-This site will have a second gallery featuring fan art tht followers send cillian.
+This site will have a second gallery featuring fan art that followers send cillian.
 The gallery will be broader in catagories such as Shorts, Shows, and tutorials
 The site will have a broader Social section that showcases collabotors with works and inspiration.
+
+### Upcoming Updates
+
+- A fix for the Video Modals on mobile devices so it displays properly on chrome.
+- An update to the mobile landscape view for better experience on home page.
 
 ### User Experience
 
@@ -180,11 +185,19 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
 1. [Autoprefixer](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer)
    - A VSCode plugin that can parse CSS and add vendor prefixes automatically.
 
+
 ## Testing
 
-### Further Testing
 
+- 
+    - The developer used **[W3C CSS validation](https://jigsaw.w3.org/css-validator/)** and **[W3C Markup Validation]( https://validator.w3.org/)** to check the validity of the website code.
+
+
+### Further Testing
+Shared with fellow students for a peer review of the site, the modal positioning was shown to be problematic, 
+I targeted the modal class in css and this fixed the issue on large screens.
 ### Known Bugs
+The position of the video modals on mobile screens can sometimes get fixed to top of the screen out of view to the viewer if the viewer has scrolled down.
 
 ## Deployment
 
