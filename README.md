@@ -174,8 +174,11 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
 1.  [Gitpod](https://www.gitpod.io/docs/browser-extension/)
     - Gitpod is used for version control to push code into the github repositry it is an open-source Kubernetes application providing prebuilt, collaborative development environments in your browser - powered by VS Code.
 
-1.  [FREEFORMATTER](https://www.freeformatter.com/)
+1.  [Freeformator](https://www.freeformatter.com/)
     - Freeformatter is an online developer tool, used for formating code.
+
+1. [Autoprefixer](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer)
+   - A VSCode plugin that can parse CSS and add vendor prefixes automatically.
 
 ## Testing
 
