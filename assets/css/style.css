@@ -15,10 +15,6 @@
     src: url(../css/fonts/Molot.otf);
 }
 
-:root {
-    --active-color: #f26444;
-}
-
 /* I customimzed and changed colours taken from a pattern at https://gradienta.io/ */
 body {
     font-family: "HelveticaMedium";
@@ -27,7 +23,8 @@ body {
     background-blend-mode: soft-light, screen, darken, normal;
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+            backdrop-filter: blur(8px);
 }
 
 
@@ -183,8 +180,9 @@ a.nav-link {
     border-radius: 0 0.25em 0.25em 0.25em;
     box-shadow: 7px 30px 40px #0e0370c5;
     transition: 0.5s;
-    animation: speech 0.7s linear 1;
-    /* More custom code */
+     /*custom code */
+    -webkit-animation: speech 0.7s linear 1;
+            animation: speech 0.7s linear 1;
     font-family: "Sniglet", cursive;
     font-size: 20px;
     line-height: 1.2;
@@ -192,6 +190,7 @@ a.nav-link {
     font-weight: 600;
     align-content: justify;
 }
+
 
 .speech-bubble2::after,
 .speech-bubble::after {
@@ -278,8 +277,6 @@ a.nav-link {
         padding-right: 1.1rem;
     }
 }
-
-/* ...............Custom Code for modals...................................Gallery */
 .btn-sm {
     padding: 0.25rem 0.5rem;
     font-size: 1.5rem;
@@ -382,8 +379,6 @@ textarea {
     -moz-transition: border 0.5s;
     -o-transition: border 0.5s;
     border: solid 3px #da50fa;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -406,9 +401,6 @@ input[type="submit"] {
     margin-top: 30px;
     font-size: 1.29em;
     font-family: "Sniglet", cursive;
-    -webkit-transition: background-color 0.5s;
-    -moz-transition: background-color 0.5s;
-    -o-transition: background-color 0.5s;
     transition: background-color 0.5s;
 }
 
@@ -432,7 +424,8 @@ label {
     border-radius: 0 0.25em 0.25em 0.25em;
     box-shadow: 7px 30px 40px #0e0370c5;
     transition: 0.5s;
-    animation: speech 0.7s linear 1;
+    -webkit-animation: speech 0.7s linear 1;
+            animation: speech 0.7s linear 1;
     /* More custom code */
     font-family: "Sniglet", cursive;
     font-size: 20px;
