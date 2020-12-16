@@ -28,8 +28,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(8px);
-
-    /* overflow: hidden; */
 }
 
 
@@ -292,7 +290,7 @@ a.nav-link {
 .showcase-video {
     background: #fff;
     border: 2px solid #da50fa;
-    box-shadow: 10px 10px 8px #153e99 width: 100%;
+    box-shadow: 10px 10px 8px;
     margin-bottom: 10px;
 
 }
@@ -596,4 +594,3 @@ hr.new1 {
 
 
 }
-
