@@ -31,10 +31,6 @@ body {
     color: #ffdcfd;
 }
 
-.sale a {
-    color: #6a2c70;
-}
-
 h1 {
     font-family: "Molot";
 }
@@ -75,7 +71,7 @@ a.nav-link {
     letter-spacing: 2.2px;
     font-weight: 400;
     letter-spacing: 2.5PX;
-    font-size: 24px;
+    font-size: 26px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.267);
 }
 

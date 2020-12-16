@@ -105,11 +105,8 @@ The site will have a broader Social section that showcases collabotors with work
 
 - #### Using these colours and experimenting with various split complementary and triad choices using [adobe color](https://color.adobe.com/)
 
-  This is a triad color considered for the call to action features
-
-  ![call2action|259x179,20%](https://user-images.githubusercontent.com/26776439/99450775-21a03200-2919-11eb-80d7-663185536928.png)
-
-![Colours](https://user-images.githubusercontent.com/26776439/99447359-1a782480-2917-11eb-897a-e500253cd827.png)
+ 
+![Colours]()
 
 Changes to the Navbar, these screenshots are examples of the Sites main navigation but it tool up to much of the sites real estate expecially on [mobile](https://ibb.co/Z6yCxQh)
 
@@ -185,10 +182,13 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
 1. [Autoprefixer](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer)
    - A VSCode plugin that can parse CSS and add vendor prefixes automatically.
 
-
+1. [ScreenFly](https://screenfly.org/)
+- Test your website on any screen size including desktops, tablets, televisions, and mobile phones.
 ## Testing
 
- - I used **[W3C CSS validation](https://jigsaw.w3.org/css-validator/)** and **[W3C Markup Validation]( https://validator.w3.org/)** to check the validity of the website code.
+ I used **[W3C CSS validation](https://jigsaw.w3.org/css-validator/)** and **[W3C Markup Validation]( https://validator.w3.org/)** to check the validity of the website code.
+
+ I used [ScreenFly](https://screenfly.org/) to test the website on different screen sizes.
 
 
 ### Further Testing
