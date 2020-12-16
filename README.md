@@ -188,9 +188,7 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
 
 ## Testing
 
-
-- 
-    - The developer used **[W3C CSS validation](https://jigsaw.w3.org/css-validator/)** and **[W3C Markup Validation]( https://validator.w3.org/)** to check the validity of the website code.
+ - I used **[W3C CSS validation](https://jigsaw.w3.org/css-validator/)** and **[W3C Markup Validation]( https://validator.w3.org/)** to check the validity of the website code.
 
 
 ### Further Testing

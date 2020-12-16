@@ -27,68 +27,18 @@ body {
             backdrop-filter: blur(8px);
 }
 
-
-#purple {
-    color: #6a2c70;
-}
-
-.purple {
-    color: #6a2c70;
-}
-
-.discord {
-    color: #7289da;
-}
-
-.twitter {
-    color: #00acee;
-}
-
-.reddit {
-    color: #ff4301;
-}
-
-.red {
-    color: #ff0000;
-}
-
 .sale span {
-    color: #f26444;
+    color: #ffdcfd;
 }
 
 .sale a {
     color: #6a2c70;
 }
 
-/*........................................... //Colours */
-
-/* .......................................... special */
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-.text-center {
-    text-align: center;
-}
-
 h1 {
     font-family: "Molot";
 }
-
-/* .............................................................// special */
-
-/*  .........................................Customized Bootsrap Navigation */
+/*  .........................................Customized Bootstrap Navigation */
 .navbar .navbar-brand {
     font-family: "Molot";
     color: aliceblue;
@@ -107,7 +57,6 @@ h1 {
     -moz-transform: rotate(-15deg);
     -ms-transform: rotate(-15deg);
     -o-transform: rotate(-15deg);
-
 }
 
 .my-navbar {
@@ -130,8 +79,12 @@ a.nav-link {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.267);
 }
 
-.nav-item a i {
-    color: #ffdcfd;
+.fa-shopping-cart:before {
+    color: #ff4301;
+}
+
+ul li a .orange{
+    color: #ff4301; important;
     z-index: 3;
 }
 
@@ -141,20 +94,20 @@ a.nav-link {
 }
 
 .navbar-nav>.active>a {
-    background-color: #B889FA;
+    background-color: rgba(184, 137, 250, 0.6);
     color: #fff;
     border-radius: 30%;
+    background-opacity: 0.7;
 }
+
 
 .navbar-expand-lg ul {
     padding-top: 20px;
 }
-
 /*  ...........................//.Navigation */
 
-/* .................................................Home Page Top Fold*/
-/* Added an extra speech bubble and customized font properties and colours, original source found https://www.youtube.com/watch?v=4n-HajZScKQ*/
-
+/* .................................................Home Page*/
+/* Added  customization and also with font properties and colours, original source found https://www.youtube.com/watch?v=4n-HajZScKQ*/
 .bubble-box {
     margin: 0;
     background: transparent;
@@ -190,7 +143,6 @@ a.nav-link {
     font-weight: 600;
     align-content: justify;
 }
-
 
 .speech-bubble2::after,
 .speech-bubble::after {
@@ -239,38 +191,9 @@ a.nav-link {
 
 }
 
+
 /* Video modals copied from https://mdbootstrap.com/plugins/jquery/video/ */
-.gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-    column-width: 33%;
-}
-
-.gallery .pics {
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease;
-}
-
-.gallery .animation {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-}
-
-@media (max-width: 450px) {
-    .gallery {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        -webkit-column-width: 100%;
-        -moz-column-width: 100%;
-        column-width: 100%;
-    }
-}
-
+/*Customized Social Links and image borders on modals*/
 @media (max-width: 400px) {
     .btn.filter {
         padding-left: 1.1rem;
@@ -324,7 +247,6 @@ a:active {
 }
 
 /*Customized Social Links and image borders on modals*/
-
 .social-links.btn-fr {
     padding: 0.25rem 0.5rem;
     font-size: 1.5rem;
@@ -337,13 +259,9 @@ a:active {
     border: 2px solid #153e99;
     box-shadow: 10px 10px 8px #6e0ae0;
 }
-
-
-
 /*   ............................................... //Gallery */
 
 /* ...........................................................Contact US  */
-
 /* orignial form is called "under the sea" found at https://www.mockplus.com/blog/post/contact-us-page-template 
 Some custom colors and font properties in below code*/
 /*................................................................................... Contact US  */
@@ -352,7 +270,6 @@ form {
     width: 80%;
     color: black;
     position: relative;
-    /* To make animation slide behind the form */
     overflow: hidden;
     z-index: 5;
     overflow: hidden;
@@ -413,7 +330,6 @@ label {
     margin-top: 20px;
     padding-left: 20px;
 }
-
 
 .contact-box {
     color: black;
@@ -494,10 +410,9 @@ hr.new1 {
     border-top: 1px solid #808080;
     width: 40%;
 }
-
 /*.............................................//*Footer */
+
 /* .........................................................Art page Flex Grid */
-/* .............................................................Art Page */
 /* Flex Grid taken from W3School https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
 .row .art-row {
     display: flex;
@@ -533,7 +448,6 @@ hr.new1 {
         max-width: 100%;
     }
 }
-
 /* ............................................///.Art Flex Grid */
 
 /* .................Home Page....................................Media Queries */
