@@ -190,6 +190,20 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
 
  I used [ScreenFly](https://screenfly.org/) to test the website on different screen sizes.
 
+The Client and user stories achieved the outcome of providing them with  an easy to navigate site that was simplistic
+and colourful that proved appealing to the clients peers. 
+
+Users can find links to the clients social media throughout the site, on Homw page there is a section below the above fold that has large
+icons linking users to the clients Social Media account. The icons have a fun hover pulse that adds to the interactive animnation theme for the site.
+
+They have also links to the clients social media in the footer of every page on the site. The Gallery has video modals that open the clients animation shorts
+on each video has its own modal footer with social media icons too that appear fun and interactive.
+
+After recieving feedback from clients friends and peers who tested the site, I changed the colours to have a better warmer contrast and improved readability for the site.
+
+I successfully added the clients onliine merch store to the site and is accessible on the navbar and footer of every page> Each link has been giving a "target="blank" code so as to open on a new page.
+
+
 
 ### Further Testing
 Shared with fellow students for a peer review of the site, the modal positioning was shown to be problematic, 
