@@ -195,8 +195,10 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
 Shared with fellow students for a peer review of the site, the modal positioning was shown to be problematic, 
 I targeted the modal class in css and this fixed the issue on large screens.
 ### Known Bugs
-The position of the video modals on mobile screens can sometimes get fixed to top of the screen out of view to the viewer if the viewer has scrolled down.
-I have added "modal-dialog-centered" and targeted modal on css and this has fixed the issus on allot of screen sizes but can still bebuggy on chrome mobile
+The position of the video modals on mobile screens was sometimes getting fixed to top of the screen out of view to the viewer if the viewer had scrolled up or down.
+I have added "modal-dialog-centered" and targeted modal on css and this has fixed the issus on allot of screen sizes but was still bebuggy on chrome mobile
+eventually I added a centered fixed position to .modal-open and this has eventually fixed the positioning of the modals but now when the
+modal opens the website background turns white.
 
 
 ## Deployment
