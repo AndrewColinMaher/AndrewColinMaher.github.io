@@ -51,14 +51,14 @@ when displaying videos.
 
 ### Upcoming Features
 
-This site will have a second gallery featuring fan art that followers send cillian.
-The gallery will be broader in catagories such as Shorts, Shows, and tutorials
+This site will have a revamped gallery featuring fan art and more gategories and content.
 The site will have a broader Social section that showcases collabotors with works and inspiration.
 
-### Upcoming Updates
+### Upcoming Updates - end Jan
 
 - A fix for the Video Modals on mobile devices so it displays properly on chrome.
 - An update to the mobile landscape view for better experience on home page.
+- Contact Form will have completed back end and will be in use.
 
 ### User Experience
 
