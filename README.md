@@ -1,5 +1,5 @@
 # Online Portfolio for Cillian Maher
-
+![b5d8968b12ec2a26016e346015f61761](https://user-images.githubusercontent.com/26776439/102488772-7cd25b00-4064-11eb-9c99-01f4c83f51e9.png)
 ## CJBlasts
 
 This project is an online portfolio I created for my son Cillian Maher who is an aspiring and budding youtuber that provides content such as animation shorts on his channel.
@@ -183,7 +183,7 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
    - A VSCode plugin that can parse CSS and add vendor prefixes automatically.
 
 1. [ScreenFly](https://screenfly.org/)
-- Test your website on any screen size including desktops, tablets, televisions, and mobile phones.
+   - Test your website on any screen size including desktops, tablets, televisions, and mobile phones.
 ## Testing
 
  I used **[W3C CSS validation](https://jigsaw.w3.org/css-validator/)** and **[W3C Markup Validation]( https://validator.w3.org/)** to check the validity of the website code.
@@ -203,7 +203,8 @@ After recieving feedback from clients friends and peers who tested the site, I c
 
 I successfully added the clients onliine merch store to the site and is accessible on the navbar and footer of every page> Each link has been giving a "target="blank" code so as to open on a new page.
 
-Users that want to see who else the client does animation for they can on the gallery page.
+Users that want to see who else the client does animation for they can on the gallery page. The contact form currently is only set up for thte front end but will be up and running
+when I am learning about forms and back end in my course.
 
 ### Further Testing
 Shared with fellow students for a peer review of the site, the modal positioning was shown to be problematic, 
