@@ -203,11 +203,11 @@ After recieving feedback from clients friends and peers who tested the site, I c
 
 I successfully added the clients onliine merch store to the site and is accessible on the navbar and footer of every page> Each link has been giving a "target="blank" code so as to open on a new page.
 
-
+Users that want to see who else the client does animation for they can on the gallery page.
 
 ### Further Testing
 Shared with fellow students for a peer review of the site, the modal positioning was shown to be problematic, 
-I targeted the modal class in css and this fixed the issue on large screens.
+I targeted the modal class in css and this fixed the issue on large screen and mobile screens.
 ### Known Bugs
 The position of the video modals on mobile screens was sometimes getting fixed to top of the screen out of view to the viewer if the viewer had scrolled up or down.
 I have added "modal-dialog-centered" and targeted modal on css and this has fixed the issus on allot of screen sizes but was still bebuggy on chrome mobile
