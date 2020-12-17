@@ -242,9 +242,12 @@ ul li a .orange{
 }
 
 .modal-open {
-    top: 25%;
-    overflow: visible;
-
+    bottom: 0;
+  left: 0;
+  margin: auto; 
+  position: fixed;
+  right: 0;
+  top: 0;
 }
 
 .showcase-link,
@@ -510,3 +513,4 @@ hr.new1 {
 
 
 }
+

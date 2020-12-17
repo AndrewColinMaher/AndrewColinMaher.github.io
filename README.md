@@ -196,6 +196,8 @@ Shared with fellow students for a peer review of the site, the modal positioning
 I targeted the modal class in css and this fixed the issue on large screens.
 ### Known Bugs
 The position of the video modals on mobile screens can sometimes get fixed to top of the screen out of view to the viewer if the viewer has scrolled down.
+I have added "modal-dialog-centered" and targeted modal on css and this has fixed the issus on allot of screen sizes but can still bebuggy on chrome mobile
+
 
 ## Deployment
 
