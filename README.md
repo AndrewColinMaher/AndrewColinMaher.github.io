@@ -2,11 +2,11 @@
 ![b5d8968b12ec2a26016e346015f61761](https://user-images.githubusercontent.com/26776439/102488772-7cd25b00-4064-11eb-9c99-01f4c83f51e9.png)
 ## CJBlasts
 
-This project is an online portfolio I created for my son Cillian Maher who is an aspiring and budding youtuber that provides content such as animation shorts on his channel.
+This project is an online portfolio I have created for my son Cillian Maher, who is an aspiring and budding youtuber  providing content such as animation shorts on his channel.
 He has requested myself to give him an online presence.
-This project is also a Milestone one project which is to be a static front end website built by using html css and front end technologies I have learnt while studying Software Development at the Code Insititue.
+This project is also a Milestone one project, which is to be a static front end website built by using html, css and front end technologies I have learned while studying Software Development at the Code Insititue.
 
-This project will contain a homepage with navigational links to other pages of the site which will inculde a art page that will shocase his upcoming artwork, a video gallery page to shocase his video's past and upcoming works a contact page where users can get in touch and also a link where the client sells his own merchandise.
+This project will contain a homepage with navigational links to other pages of the site which will include an art page that will showcase his upcoming artwork, a video gallery page to showcase his video's past and upcoming works and a contact page where users can get in touch, and also a link where the client sells his own merchandise.
 
 [Visit the live project here](https://andrewcolinmaher.github.io/)
 
@@ -18,26 +18,26 @@ The aims, objectives and [strategy](https://github.com/AndrewColinMaher/AndrewCo
 - Provide Links to all his relevant Social Media
 - Promote any Collaborative projects that he creates or is involved in
 - Provide Links to merch that he is selling
-- Provide a form where were potential colloborators or Clients can get in touch
+- Provide a form where potential collaborators or Clients can get in touch
 
 The users goals of this site are
 
 - To find out more information about CJBLasts, does he exist on other platforms?
-- Can I see what other projects he is invovled in.
-- How much followers does he have.
+- Can I see what other projects he is involved in.
+- How many followers does he have.
 - Find out how to get in touch with CJBlasts.
 
 ## UX
 
 ### Market Analysis
 
-The Primary and secondary target audience users of this site are in the age group of 10 years old an on upards to 30
-or more. I will be designing the site to be simple and attractive to its users, I will be using bright colours and animating svg images to make the site feel fun and interactive these could be children or young adults that came to the site from
+The Primary and secondary target audience users of this site are in the age group of 10 years old and upwards to 30
+or more. I will be designing the site to be simple and attractive to its users, I will be using bright colours and animating svg images to make the site feel fun and interactive, these could be children or young adults that came to the site from
 twitter, discord, reddit or even youtube.
 
 ### Features
 
-The site needs to be colourful and simplistic that evokes warmth anf fun. It should have some moving or animating features, css
+The site needs to be colourful and simplistic so that it evokes warmth and fun. It should have some moving or animating features, css
 animations with tools such as Keyframes chrome tool to help me animate images and divs.
 
 This site is going to be fully responsive across desktop tablet and mobile devices. It will use a flex Grid to display art work and a video gallery which uses modals that incorporate a footer with links to the clients social media accounts
@@ -45,14 +45,14 @@ when displaying videos.
 
 - The Video Gallery will use modals that have a footer which will contain links to Cj's social media
 
-- This site will have a link to an external site where he seels his merchandise.
+- This site will have a link to an external site where he sells his merchandise.
 
 - This site will have a messeage me contact form.
 
 ### Upcoming Features
 
-This site will have a revamped gallery featuring fan art and more gategories and content.
-The site will have a broader Social section that showcases collabotors with works and inspiration.
+This site will have a revamped gallery featuring fan art and more categories and content.
+The site will have a broader Social section that showcases collaborators with works and inspiration.
 
 ### Upcoming Updates - end Jan
 
@@ -76,7 +76,7 @@ The site will have a broader Social section that showcases collabotors with work
 
 #### Frequnet Visitor Goals
 
-1. As a frequent visitor I want to fint out the latest activity CJBlasts is involved in.
+1. As a frequent visitor I want to find out the latest activity CJBlasts is involved in.
 2. As a frequent visitor I want be able to message Cjblasts with updates proposals or fan works easily.
 
 ### Creative and Technical requirements for the new site
@@ -108,20 +108,20 @@ The site will have a broader Social section that showcases collabotors with work
  
 ![Colours]()
 
-Changes to the Navbar, these screenshots are examples of the Sites main navigation but it tool up to much of the sites real estate expecially on [mobile](https://ibb.co/Z6yCxQh)
+Changes to the Navbar, these screenshots are examples of the Sites main navigation but it took up to much of the sites real estate expecially on [mobile](https://ibb.co/Z6yCxQh)
 
 ![oldnavbar](https://user-images.githubusercontent.com/26776439/99538453-e6e3db80-29a4-11eb-93c0-c4fd68d59e3c.png)
 
-Here i eventually settled on moving the navbar into my top banner, to save on valuable space on the website. Also I eventually got my brand and merch links to float eft and right with my remaining links centered.
+Here I eventually settled on moving the navbar into my top banner, to save on valuable space on the website. Also I eventually got my brand and merch links to float left and right with my remaining links centered.
 ![new navbar](https://user-images.githubusercontent.com/26776439/99538043-51e0e280-29a4-11eb-95c2-1ab22561572f.png)
 
-To make my links for fun and attractive I used [Hover.css](https://ianlunn.github.io/Hover/) as this had plenty of options to make links and icons move or do something when hoverd over or cicked. I liked to use hover pulse and hover grow on suitable elements.
+To make my links more fun and attractive I used [Hover.css](https://ianlunn.github.io/Hover/) as this had plenty of options to make links and icons move or do something when hovered over or clicked. I liked to use hover pulse and hover grow on suitable elements.
 
 #### Media
 
-The CJ figure on the home page and contact page were drawn by me they are based upon CJblasts avatar all other images and videos are created by Cillian Maher.
+The CJ figure on the home page and contact page was drawn by myself, they are based upon CJblasts avatar, all other images and videos are created by Cillian Maher.
 
-On the home page and contact page I added interactivity with the SVG images, on the home page I made the sunshades drop onto the Avatar and on the contact page I made his avatar slid into view from the left.
+On the home page and contact page I added interactivity with the SVG images, on the home page I made the sunshades drop onto the Avatar and on the contact page I made his avatar slide into view from the left.
 
 #### Typography
 
@@ -170,14 +170,14 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
 
 1.  [TinyPng](https://tinypng.com/)
 
-    - TinyPng is a websight I used to compress all the png and jpeg images used on this website.
+    - TinyPng is a website I used to compress all the png and jpeg images used on this website.
 
 1.  [GitHub](https://github.com/)
 
-    - GithHub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
+    - GitHub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
 
 1.  [Gitpod](https://www.gitpod.io/docs/browser-extension/)
-    - Gitpod is used for version control to push code into the github repositry it is an open-source Kubernetes application providing prebuilt, collaborative development environments in your browser - powered by VS Code.
+    - Gitpod is used for version control to push code into the github repositry, it is an open-source Kubernetes application providing prebuilt, collaborative development environments in your browser - powered by VS Code.
 
 1.  [Freeformator](https://www.freeformatter.com/)
     - Freeformatter is an online developer tool, used for formating code.
@@ -208,9 +208,9 @@ on each video has its own modal footer with social media icons too that appear f
 
 After recieving feedback from clients friends and peers who tested the site, I changed the colours to have a better warmer contrast and improved readability for the site.
 
-I successfully added the clients onliine merch store to the site and is accessible on the navbar and footer of every page> Each link has been giving a "target="blank" code so as to open on a new page.
+I successfully added the clients online merch store to the site and it is accessible on the navbar and footer of every page> Each link has been given a "target="blank" code so as to open on a new page.
 
-Users that want to see who else the client does animation for they can on the gallery page. The contact form currently is only set up for thte front end but will be up and running
+Users that want to see who else the client does animation for  can do so on the gallery page. The contact form currently is only set up for the front end but will be up and running
 when I am learning about forms and back end in my course.
 
 ### Further Testing
@@ -218,7 +218,7 @@ Shared with fellow students for a peer review of the site, the modal positioning
 I targeted the modal class in css and this fixed the issue on large screen and mobile screens.
 ### Known Bugs
 The position of the video modals on mobile screens was sometimes getting fixed to top of the screen out of view to the viewer if the viewer had scrolled up or down.
-I have added "modal-dialog-centered" and targeted modal on css and this has fixed the issus on allot of screen sizes but was still bebuggy on chrome mobile
+I have added "modal-dialog-centered" and targeted modal on css and this has fixed the issus on a lot of screen sizes but was still buggy on chrome mobile,
 eventually I added a centered fixed position to .modal-open and this has eventually fixed the positioning of the modals but now when the
 modal opens the website background turns white.
 
@@ -273,7 +273,7 @@ For further information on cloning a repository from GitHub [click here](https:/
 
 ### Content
 
-- The speech bubbles on the home page where copied from [SoftCode](https://www.youtube.com/watch?v=4n-HajZScKQ) and I customized the code for my site.
+- The speech bubbles on the home page were copied from [SoftCode](https://www.youtube.com/watch?v=4n-HajZScKQ) and I customized the code for my site.
 - The colourful body background code was copied from [gradienta](https://gradienta.io/) and I customized the code for my site.
 - The video modal gallery was copied from [mdbootstrap](https://mdbootstrap.com/plugins/jquery/video/) and I customized the code for my site.
 - The Flex Grid was copied from [W3Schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) and I customized the code for my site.
@@ -281,10 +281,10 @@ For further information on cloning a repository from GitHub [click here](https:/
 
 ### Media
 
-- The Videos on the site was obtained from [CJBlasts](https://www.youtube.com/channel/UCu1IbqTtDa-7ZE2TJ-E0V5A?)
-- The images used as placeholders on video modals was provided by [CJBlasts](https://www.youtube.com/channel/UCu1IbqTtDa-7ZE2TJ-E0V5A?)
-- The SVG images on the home page and contact page where created by me on [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html)
+- The Videos on the site were obtained from [CJBlasts](https://www.youtube.com/channel/UCu1IbqTtDa-7ZE2TJ-E0V5A?)
+- The images used as placeholders on video modals were provided by [CJBlasts](https://www.youtube.com/channel/UCu1IbqTtDa-7ZE2TJ-E0V5A?)
+- The SVG images on the home page and contact page were created by me on [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html)
 
 ### Acknowledgements
 
-- I like to thanks my mentor Narender Singh for his guidance, I also like to thank my class mate Daisy Mc Girr for helping troubleshoot some problems with me.
+- I would like to thank my mentor Narender Singh for his guidance, I would also like to thank my class mate Daisy Mc Girr for helping troubleshoot some problems with me.
