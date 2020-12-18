@@ -54,6 +54,9 @@ h1 {
     position: relative;
     top: 15px;
     left: 10px;
+    -webkit-box-shadow: -2px -1px 15px 7px rgba(0,0,0,0.5);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(0,0,0,0.425);
+    box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35);
     transform: rotate(-15deg);
     -webkit-transform: rotate(-15deg);
     -moz-transform: rotate(-15deg);
