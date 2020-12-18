@@ -17,7 +17,7 @@
 
 /* I customimzed and changed colours taken from a pattern at https://gradienta.io/ */
 body {
-    font-family: "HelveticaMedium";
+    font-family: "HelveticaMedium",Impact, Serif;
     height: 100%;
     background: linear-gradient(235deg, #FFFFFF 0%, #000F25 100%), linear-gradient(180deg, #6100FF 0%, #000000 100%), linear-gradient(235deg, #FFA3AC 0%, #FFA3AC 40%, #00043C calc(40% + 1px), #00043C 60%, #005D6C calc(60% + 1px), #005D6C 70%, #00C9B1 calc(70% + 1px), #00C9B1 100%), linear-gradient(125deg, #FFA3AC 0%, #FFA3AC 40%, #00043C calc(40% + 1px), #00043C 60%, #005D6C calc(60% + 1px), #005D6C 70%, #00C9B1 calc(70% + 1px), #00C9B1 100%);
     background-blend-mode: soft-light, screen, darken, normal;
@@ -38,11 +38,11 @@ body {
 }
 
 h1 {
-    font-family: "Molot";
+    font-family: "Molot", Impact, Serif;
 }
 /*  .........................................Customized Bootstrap Navigation */
 .navbar .navbar-brand {
-    font-family: "Molot";
+    font-family: "Molot", Impact, Serif;
     color: aliceblue;
     font-size: 34px;
     max-height: 40px;
@@ -62,7 +62,7 @@ h1 {
 }
 
 .my-navbar {
-    font-family: "HelveticaMedium";
+    font-family: "HelveticaMedium", Impact, Serif;
     background-color: transparent;
     width: 100%;
     z-index: 3;
@@ -117,7 +117,7 @@ a.nav-link {
     margin: 0;
     background: transparent;
     font-size: 25px;
-    font-family: "Sniglet", cursive;
+    font-family: "Sniglet", cursive, Serif;
     font-weight: 800;
     display: flex;
     width: 300px;
@@ -141,7 +141,7 @@ a.nav-link {
      /*custom code */
     -webkit-animation: speech 0.7s linear 1;
             animation: speech 0.7s linear 1;
-    font-family: "Sniglet", cursive;
+    font-family: "Sniglet", cursive, Serif;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 1.4px;
@@ -195,7 +195,6 @@ a.nav-link {
     color: #ff4301;
 
 }
-
 
 /* Video modals copied from https://mdbootstrap.com/plugins/jquery/video/ */
 /*Customized Social Links and image borders on modals*/
@@ -296,7 +295,7 @@ textarea {
     border-radius: 20px;
     outline: none;
     padding: 10px;
-    font-family: "Sniglet", cursive;
+    font-family: "Sniglet", cursive, Serif;
     font-size: 1em;
     color: #676767;
     transition: border 0.5s;
@@ -325,7 +324,7 @@ input[type="submit"] {
     cursor: pointer;
     margin-top: 30px;
     font-size: 1.29em;
-    font-family: "Sniglet", cursive;
+    font-family: "Sniglet", cursive, Serif;
     transition: background-color 0.5s;
 }
 
@@ -351,7 +350,7 @@ label {
     -webkit-animation: speech 0.7s linear 1;
             animation: speech 0.7s linear 1;
     /* More custom code */
-    font-family: "Sniglet", cursive;
+    font-family: "Sniglet", cursive, Serif;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 1.4px;
@@ -370,7 +369,6 @@ label {
     padding: 10px;
     top: 120px;
     right: 95px;
-
 }
 
 /* ......................................................*Footer       */

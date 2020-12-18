@@ -287,4 +287,4 @@ For further information on cloning a repository from GitHub [click here](https:/
 
 ### Acknowledgements
 
-- I would like to thank my son for being a legend and inspiring me to make this project. I hope al clients are as cool as you also like to thank my mentor Narender Singh for his guidance and suggestions, I would also like to thank my class mate Daisy Mc Girr for helping troubleshoot some problems with me.
+- I would like to thank my son for being a legend and inspiring me to make this project. I hope all clients are as cool as you also like to thank my mentor Narender Singh for his guidance and suggestions, I would also like to thank my class mate Daisy Mc Girr for helping troubleshoot some problems with me.
