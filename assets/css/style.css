@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: HelveticaRegular;
-    src: url(/assets/css/fonts/HelveticaNowText-Regular.otf);
+    src: url(/assets/css/fonts/HelveticaNowText-Regular.otf)format("opentype");
 }
 
 @font-face {
     font-family: HelveticaMedium;
-    src: url(/assets/css/fonts/HelveticaNowText-Medium.otf);
+    src: url(/assets/css/fonts/HelveticaNowText-Medium.otf)format("opentype");
 }
 
 @font-face {
     font-family: Molot;
-    src: url(/assets/css/fonts/Molot.otf);
+    src: url(/assets/css/fonts/Molot.otf)format("opentype");
 }
 
 /* I customimzed and changed colours taken from a pattern at https://gradienta.io/ */
