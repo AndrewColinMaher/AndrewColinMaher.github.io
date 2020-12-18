@@ -105,8 +105,8 @@ The site will have a broader Social section that showcases collaborators with wo
 
 - #### Using these colours and experimenting with various split complementary and triad choices using [adobe color](https://color.adobe.com/)
 
- 
-![Colours]()
+ #### Colours
+![4c2432cf5771299900eafca4a6f77a26](https://user-images.githubusercontent.com/26776439/102649277-cacc8900-4160-11eb-98d7-752230d5006c.png)
 
 Changes to the Navbar, these screenshots are examples of the Sites main navigation but it took up to much of the sites real estate expecially on [mobile](https://ibb.co/Z6yCxQh)
 
