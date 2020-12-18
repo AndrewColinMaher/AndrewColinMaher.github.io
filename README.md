@@ -121,7 +121,7 @@ To make my links for fun and attractive I used [Hover.css](https://ianlunn.githu
 
 The CJ figure on the home page and contact page were drawn by me they are based upon CJblasts avatar all other images and videos are created by Cillian Maher.
 
-On the home page and contact page I added interactivity with the SVG images, on the home page I made the sunhades drop onto the Avatar and on the contact page I made his avatar slid into view from the left.
+On the home page and contact page I added interactivity with the SVG images, on the home page I made the sunshades drop onto the Avatar and on the contact page I made his avatar slid into view from the left.
 
 #### Typography
 
@@ -136,6 +136,9 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
+1.   [Chrome Developer tools](https://developers.google.com/web/tools/chrome-devtools)
+
+        - Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. DevTools can help you edit pages on-the-fly and diagnose problems quickly, which ultimately helps you build better websites, faster.
 
 1.  [Bootstrap 4.5:](https://getbootstrap.com/)
 
@@ -184,16 +187,20 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
 
 1. [ScreenFly](https://screenfly.org/)
    - Test your website on any screen size including desktops, tablets, televisions, and mobile phones.
+
+1. [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+    - Lighthouse is an open-source, automated tool for improving the quality of web pages.
+
 ## Testing
 
  I used **[W3C CSS validation](https://jigsaw.w3.org/css-validator/)** and **[W3C Markup Validation]( https://validator.w3.org/)** to check the validity of the website code.
 
- I used [ScreenFly](https://screenfly.org/) to test the website on different screen sizes.
+ I used [ScreenFly](https://screenfly.org/) to test the website on different screen sizes and [Lighthouse](https://developers.google.com/web/tools/lighthouse) for improving the performance and acessibiltiy for the site.
 
 The Client and user stories achieved the outcome of providing them with  an easy to navigate site that was simplistic
 and colourful that proved appealing to the clients peers. 
 
-Users can find links to the clients social media throughout the site, on Homw page there is a section below the above fold that has large
+Users can find links to the clients social media throughout the site, on Home page there is a section below the above fold that has large
 icons linking users to the clients Social Media account. The icons have a fun hover pulse that adds to the interactive animnation theme for the site.
 
 They have also links to the clients social media in the footer of every page on the site. The Gallery has video modals that open the clients animation shorts
