@@ -30,11 +30,14 @@ body {
 /* text shadow credit goes    https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color    changed to 0.5*/
 .sale span {
     color: #B889FA;
+    background-color: transparent;
     text-shadow:
         0.05em 0 black,
         0 0.05em black,
         -0.05em 0 black,
         0 -0.05em black;
+    box-shadow: 10px 35px 40px #0e0370c5;
+
 }
 
 h1 {
@@ -53,7 +56,8 @@ h1 {
     padding-bottom: 0;
     position: relative;
     top: 15px;
-    left: 10px;
+    left: 10px; 
+    /* Drop Shadadow code from  David Björklund on  https://www.codegrepper.com/app/profile.php?id=95927 */
     -webkit-box-shadow: -2px -1px 15px 7px rgba(0,0,0,0.5);
     -moz-box-shadow: -3px -2px 30px 14px rgba(0,0,0,0.425);
     box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35);
@@ -64,6 +68,9 @@ h1 {
     -o-transform: rotate(-15deg);
 }
 
+svg.my-fig {
+
+}
 .my-navbar {
     font-family: "HelveticaMedium", Impact, Serif;
     background-color: transparent;
@@ -115,7 +122,7 @@ a.nav-link {
 /*  ...........................//.Navigation */
 
 /* .................................................Home Page*/
-/* Added  customization and also with font properties and colours, original source found https://www.youtube.com/watch?v=4n-HajZScKQ*/
+/*  Source code copied here https://www.youtube.com/watch?v=4n-HajZScKQ Added  customization and also with font properties and colours,*/
 .bubble-box {
     margin: 0;
     background: transparent;
@@ -142,13 +149,13 @@ a.nav-link {
     box-shadow: 7px 30px 40px #0e0370c5;
     transition: 0.5s;
      /*custom code */
-    -webkit-animation: speech 0.7s linear 1;
-            animation: speech 0.7s linear 1;
     font-family: "Sniglet", cursive, Serif;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 1.4px;
     font-weight: 600;
+    -webkit-animation: speech 0.7s linear 1;
+    animation: speech 0.7s linear 1;
 
 }
 
@@ -173,6 +180,7 @@ a.nav-link {
 .social-media {
     background: #2d2926ff;
     box-shadow: inset 0 0 7px 4px rgba(75, 71, 71, 0.836);
+    box-shadow: 7px 30px 40px #0e0370c5;
 
 }
 
@@ -439,6 +447,8 @@ hr.new1 {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    box-shadow: 7px 30px 40px #0e0370c5;
+    
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
