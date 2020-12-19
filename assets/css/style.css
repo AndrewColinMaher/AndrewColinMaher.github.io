@@ -29,15 +29,16 @@ body {
 
 }
 
+.contact-container {
+    /* Background customized from  https://gradienta.io/ */
+    background: linear-gradient(90deg, #D6B872 0%, #D6B87F 40%, #A3EB7F 40%, #A3EB7F 60%, #9FCCD1 60%, #9FCCD1 70%, #FA7F7A 70%, #FA7F7A 100%);
+}
+
 .sale span {
-    color: #B889FA;
     background-color: transparent;
-    /* text shadow credit .. "https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color    changed to 0.5*/
-    text-shadow:
-        0.05em 0 black,
-        0 0.05em black,
-        -0.05em 0 black,
-        0 -0.05em black;
+    /* text Shadow  found here https://css3gen.com/css3-text-effects/ */
+    color: #d9d9d9;
+    text-shadow: #2e2e2e 0 4px 5px;
 }
 
 h1 {
@@ -58,11 +59,7 @@ h1 {
     position: relative;
     top: 15px;
     left: 10px;
-    /* Drop Shadadow code Author David Björklund on  https://www.codegrepper.com/app/profile.php?id=95927 */
-    /* -webkit-box-shadow: -2px -1px 15px 7px rgba(0,0,0,0.5);
-    -moz-box-shadow: -3px -2px 30px 14px rgba(0,0,0,0.425);
-    box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35); */
-    /* Rotate() Sourced Dev Mozilla https://developer.mozilla.org/en-US/docs/Web/CSS/rotate */
+    text-shadow: #2e2e2e 0 4px 5px;
     transform: rotate(-15deg);
     -webkit-transform: rotate(-15deg);
     -moz-transform: rotate(-15deg);
@@ -82,17 +79,13 @@ a.nav-link {
 }
 
 .navbar-nav .nav-link {
-    color: #ffdcfd;
+    /* Text Shadow https://css3gen.com/css3-text-effects/ */
+    color: #d9d9d9;
+    text-shadow: #2e2e2e 0 4px 5px;
     letter-spacing: 2.2px;
     font-weight: 600;
     letter-spacing: 2.5PX;
     font-size: 26px;
-    /* text shadow credit .. "https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color    changed to 0.5*/
-    text-shadow:
-        0.03em 0 black,
-        0 0.03em black,
-        -0.03em 0 black,
-        0 -0.03em black;
 }
 
 .fa-shopping-cart:before {
@@ -295,7 +288,7 @@ a:active {
 /* This for has been customized by myself */
 form {
     margin: 0 auto;
-    width: 100%;
+    max-width: 500px;
     position: relative;
     overflow: hidden;
     z-index: 5;
@@ -377,8 +370,6 @@ label {
     margin-top: 20px;
     padding-left: 20px;
 }
-
-
 
 div.contact-box {
     color: black;
