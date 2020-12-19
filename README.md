@@ -197,6 +197,9 @@ My client cjblasts had requested me to use [Molot](https://www.dafont.com/molot.
 
  I used [ScreenFly](https://screenfly.org/) to test the website on different screen sizes and [Lighthouse](https://developers.google.com/web/tools/lighthouse) for improving the performance and acessibiltiy for the site.
 
+This site was tested on mutliple browsers and works well on **Chrome** **Firefox** and **Opera**.
+- Internet explorer and samsung internet ar not displaying some colours correctly, I will be adding appriopiate vender prefixes or modifying my filters to fix this in the next updates.
+
 The Client and user stories achieved the outcome of providing them with  an easy to navigate site that was simplistic
 and colourful that proved appealing to the clients peers. 
 
@@ -206,7 +209,8 @@ icons linking users to the clients Social Media account. The icons have a fun ho
 They have also links to the clients social media in the footer of every page on the site. The Gallery has video modals that open the clients animation shorts
 on each video has its own modal footer with social media icons too that appear fun and interactive.
 
-After recieving feedback from clients friends and peers who tested the site, I changed the colours to have a better warmer contrast and improved readability for the site.
+After recieving feedback from clients friends and peers who tested the site, I changed the colours to have a better warmer contrast and improved readability for the site. A suggestion of having
+the arrow pointers from the speech bubble change direction when on desktop was suggested, I accompleshed this with some CSS code.
 
 I successfully added the clients online merch store to the site and it is accessible on the navbar and footer of every page> Each link has been given a "target="blank" code so as to open on a new page.
 
