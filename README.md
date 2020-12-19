@@ -223,8 +223,8 @@ I targeted the modal class in css and this fixed the issue on large screen and m
 ### Known Bugs
 The position of the video modals on mobile screens was sometimes getting fixed to top of the screen out of view to the viewer if the viewer had scrolled up or down.
 I have added "modal-dialog-centered" and targeted modal on css and this has fixed the issus on a lot of screen sizes but was still buggy on chrome mobile,
-eventually I added a centered fixed position to .modal-open and this has eventually fixed the positioning of the modals but now when the
-modal opens the website background turns white.
+eventually I added a centered fixed position to .modal-open and this has eventually fixed the positioning of the modals but a note that when the
+modal's open the website's background now turns white.
 
 
 ## Deployment
@@ -288,6 +288,16 @@ For further information on cloning a repository from GitHub [click here](https:/
 - The Videos on the site were obtained from [CJBlasts](https://www.youtube.com/channel/UCu1IbqTtDa-7ZE2TJ-E0V5A?)
 - The images used as placeholders on video modals were provided by [CJBlasts](https://www.youtube.com/channel/UCu1IbqTtDa-7ZE2TJ-E0V5A?)
 - The SVG images on the home page and contact page were created by me on [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html)
+
+### Useful Resources
+
+[w3schools](https://www.w3schools.com/)
+
+[MDN web Docs](https://developer.mozilla.org/en-US/)
+
+[CSS-TRICKS](https://css-tricks.com/)
+
+[stack**overflow**](https://stackoverflow.com/)
 
 ### Acknowledgements
 
