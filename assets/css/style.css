@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: HelveticaMedium;
-    src: url(/assets/css/fonts/HelveticaNowText-Medium.otf)format("opentype");  
+    src: url(/assets/css/fonts/HelveticaNowText-Medium.otf)format("opentype");
 }
 
 @font-face {
@@ -17,16 +17,16 @@
 
 
 body {
-    font-family: "HelveticaMedium",Impact, Serif;
+    font-family: "HelveticaMedium", Impact, Serif;
     height: 100%;
     /* Background from  https://gradienta.io/ */
     background: linear-gradient(235deg, #FFFFFF 0%, #000F25 100%), linear-gradient(180deg, #6100FF 0%, #000000 100%), linear-gradient(235deg, #FFA3AC 0%, #FFA3AC 40%, #00043C calc(40% + 1px), #00043C 60%, #005D6C calc(60% + 1px), #005D6C 70%, #00C9B1 calc(70% + 1px), #00C9B1 100%), linear-gradient(125deg, #FFA3AC 0%, #FFA3AC 40%, #00043C calc(40% + 1px), #00043C 60%, #005D6C calc(60% + 1px), #005D6C 70%, #00C9B1 calc(70% + 1px), #00C9B1 100%);
     background-blend-mode: soft-light, screen, darken, normal;
     background-repeat: no-repeat;
     background-size: cover;
-     backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
-           
+
 }
 
 .sale span {
@@ -43,6 +43,7 @@ body {
 h1 {
     font-family: "Molot", Impact, Serif;
 }
+
 /*  ...Custm Bootstrap Navigation */
 .navbar .navbar-brand {
     font-family: "Molot", Impact, Serif;
@@ -56,7 +57,7 @@ h1 {
     padding-bottom: 0;
     position: relative;
     top: 15px;
-    left: 10px; 
+    left: 10px;
     /* Drop Shadadow code Author David Björklund on  https://www.codegrepper.com/app/profile.php?id=95927 */
     /* -webkit-box-shadow: -2px -1px 15px 7px rgba(0,0,0,0.5);
     -moz-box-shadow: -3px -2px 30px 14px rgba(0,0,0,0.425);
@@ -104,9 +105,10 @@ a.nav-link {
 }
 
 .navbar-nav a i {
-    color:#FA7F7A;
+    color: #FA7F7A;
 
 }
+
 .navbar-nav>.active>a {
     background-color: rgba(184, 137, 250, 0.6);
     color: #fff;
@@ -118,12 +120,13 @@ a.nav-link {
 .navbar-expand-lg ul {
     padding-top: 20px;
 }
+
 /*  ...........................//.Navigation */
 
 /* .................................................Home Page*/
 /*  Speech bubble inspired from https://www.youtube.com/watch?v=4n-HajZScKQ  */
-.bubble-box {font properties and colours
-    margin: 0;
+.bubble-box {
+    font properties and colours margin: 0;
     background: transparent;
     font-size: 25px;
     font-family: "Sniglet", cursive, Serif;
@@ -147,7 +150,7 @@ a.nav-link {
     border-radius: 0 0.25em 0.25em 0.25em;
     box-shadow: 7px 30px 40px #0e0370c5;
     transition: 0.5s;
-     /*custom code */
+    /*custom code */
     font-family: "Sniglet", cursive, Serif;
     font-size: 20px;
     line-height: 1.2;
@@ -214,6 +217,7 @@ a.nav-link {
         padding-right: 1.1rem;
     }
 }
+
 .btn-sm {
     padding: 0.25rem 0.25rem;
     font-size: 1.5rem;
@@ -224,7 +228,7 @@ a.nav-link {
 .showcase-video {
     background: #fff;
     border: 2px solid #da50fa;
-     box-shadow: 7px 30px 40px #0e0370c5;
+    box-shadow: 7px 30px 40px #0e0370c5;
     margin-bottom: 10px;
 
 }
@@ -241,20 +245,25 @@ a.nav-link {
     line-height: 1.5;
     min-height: 315px;
     text-shadow: 0.1px 0.1px 0.1px #000;
-    background-color: #ffdcfd;
     box-shadow: 7px 30px 40px #0e0370c5;
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 20px solid #fff;
+    background: rgba(100%, 71%, 98%, 0.9);
+    margin: 10px;
 
 }
 
 .modal-open {
     bottom: 0;
-  left: 0;
-  margin: auto; 
-  position: fixed;
-  right: 0;
-  top: 0;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
 }
 
 .showcase-link,
@@ -276,7 +285,9 @@ a:active {
     max-width: 100%;
     height: auto;
     box-shadow: 7px 30px 40px #0e0370c5;
+    cursor: pointer;
 }
+
 /*   .................... //Gallery */
 
 /* .........................Contact US  */
@@ -295,19 +306,18 @@ form {
     padding-right: 5px;
     padding-left: 45px;
     border-radius: 30%;
-     border-bottom-left-radius: 25px;
-      border-top-right-radius: 25px;
-    background-opacity: 0.7;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 20px solid #fff; /*Custom colours*/
+    border: 20px solid #fff;
     background: rgba(0, 0, 0, 0.5);
     margin: 10px;
 }
 
- /* Copied inner border box from here  "https://stackoverflow.com/questions/9601357/placing-border-inside-of-div-and-not-on-its-edge"  */
-.form + .form {
+/* Copied inner border box from here  "https://stackoverflow.com/questions/9601357/placing-border-inside-of-div-and-not-on-its-edge"  */
+.form+.form {
     border: 10px solid #fff;
 }
 
@@ -350,7 +360,7 @@ input[type="submit"] {
     background-color: #f26444;
     color: white;
     height: 50px;
-    width:80%; 
+    width: 80%;
     cursor: pointer;
     margin-top: 30px;
     font-size: 1.29em;
@@ -386,10 +396,11 @@ div.contact-box {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 20px solid #492177; /*Custom colours*/
+    border: 20px solid #492177;
+    /*Custom colours*/
     margin: 10px
-
 }
+
 /* Blinkin text coopied "https://html-online.com/articles/blinking-text-css-animation/" 
 see also transitions CSS */
 .comming-soon {
@@ -403,18 +414,20 @@ see also transitions CSS */
     top: 550px;
     left: 25px;
     box-shadow: 7px 30px 40px #0e0370c5;
-     box-sizing: border-box;
+    box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 20px solid #fff; /*Custom colours*/
+    border: 20px solid #fff;
+    /*Custom colours*/
     background: rgba(0, 0, 0, 0.5);
     margin: 10px;
 }
 
- /* Copied inner border box from here  "https://stackoverflow.com/questions/9601357/placing-border-inside-of-div-and-not-on-its-edge"  */
-.commingsoon + .commingsoon {
+/* Copied inner border box from here  "https://stackoverflow.com/questions/9601357/placing-border-inside-of-div-and-not-on-its-edge"  */
+.commingsoon+.commingsoon {
     border: 10px solid #fff;
 }
+
 /* End boder box snippit */
 /* ......................................................*Footer       */
 footer {
@@ -455,6 +468,7 @@ footer .footer-title {
 footer p {
     letter-spacing: 2px;
 }
+
 /*.................................//*Footer */
 
 /* ........................Art page Flex Grid */
@@ -477,7 +491,7 @@ footer p {
     vertical-align: middle;
     width: 100%;
     box-shadow: 7px 30px 40px #0e0370c5;
-    
+
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -495,6 +509,7 @@ footer p {
         max-width: 100%;
     }
 }
+
 /* .....................///.Art Flex Grid */
 /* ..........Home Page..................Media Queries */
 @media (max-width: 575px) and (max-width: 767px) {
