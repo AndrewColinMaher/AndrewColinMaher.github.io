@@ -55,7 +55,6 @@ The site will have a broader Social section that showcases collaborators with wo
 
 ### Upcoming Updates - end Jan
 
-- A fix for the Video Modals on mobile devices so it displays properly on chrome.
 - An update to the mobile landscape view for better experience on home page.
 - Contact Form will have completed back end and will be in use.
 
@@ -102,14 +101,12 @@ The site will have a broader Social section that showcases collaborators with wo
 
 ## Design and Process
 
-- #### Using these colours and experimenting with various split complementary and triad choices using [adobe color](https://color.adobe.com/)
+- Using these colours and experimenting with various split complementary and triad choices using [adobe color](https://color.adobe.com/)
 
  #### Colours
 ![4c2432cf5771299900eafca4a6f77a26](https://user-images.githubusercontent.com/26776439/102649277-cacc8900-4160-11eb-98d7-752230d5006c.png)
 
 Changes to the Navbar, these screenshots are examples of the Sites main navigation but it took up to much of the sites real estate expecially on [mobile](https://ibb.co/Z6yCxQh)
-
-![oldnavbar](https://user-images.githubusercontent.com/26776439/99538453-e6e3db80-29a4-11eb-93c0-c4fd68d59e3c.png)
 
 Here I eventually settled on moving the navbar into my top banner, to save on valuable space on the website. Also I eventually got my brand and merch links to float left and right with my remaining links centered.
 ![new navbar](https://user-images.githubusercontent.com/26776439/99538043-51e0e280-29a4-11eb-95c2-1ab22561572f.png)
