@@ -121,8 +121,8 @@ a.nav-link {
 /*  ...........................//.Navigation */
 
 /* .................................................Home Page*/
-/*  Speech bubble inspired from https://www.youtube.com/watch?v=4n-HajZScKQ Added  customization and also with font properties and colours,*/
-.bubble-box {
+/*  Speech bubble inspired from https://www.youtube.com/watch?v=4n-HajZScKQ  */
+.bubble-box {font properties and colours
     margin: 0;
     background: transparent;
     font-size: 25px;
@@ -290,8 +290,9 @@ form {
     /* Custon Code */
     color: #fff;
     padding: 40px;
-     /* background-color: rgba(184, 137, 250, 0.6); */
     border-radius: 30%;
+     border-bottom-left-radius: 25px;
+      border-top-right-radius: 25px;
     background-opacity: 0.7;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -305,20 +306,17 @@ form {
 .form + .form {
     border: 10px solid #fff;
 }
-}
-
-}
 
 label,
 input,
 textarea {
     display: block;
-    width: 80%;
+    width: 100%;
 }
 
 input,
 textarea {
-    width: 80%;
+    width: 100%;
     border-radius: 20px;
     outline: none;
     padding: 10px;
@@ -366,6 +364,7 @@ label {
 }
 
 
+
 div.contact-box {
     color: black;
     text-shadow: white 0px 0px 10px;
@@ -379,9 +378,12 @@ div.contact-box {
     background-color: #ffdcfd;
     border-radius: 0 0.25em 0.25em 0.25em;
     box-shadow: 7px 30px 40px #0e0370c5;
-    transition: 0.5s;
-    -webkit-animation: speech 0.7s linear 1;
-            animation: speech 0.7s linear 1;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 20px solid #492177; /*Custom colours*/
+    margin: 10px
+
 }
 /* Blinkin text coopied "https://html-online.com/articles/blinking-text-css-animation/" 
 see also transitions CSS */
@@ -391,10 +393,10 @@ see also transitions CSS */
     font-size: 18px;
     padding: 10px;
     height: 210px;
-    width: 200px;
+    width: 25%;
     position: fixed;
-    top: 120px;
-    right: 95px;
+    top: 550px;
+    left: 15px;
     box-shadow: 7px 30px 40px #0e0370c5;
      box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -527,23 +529,6 @@ footer p {
         border-radius: 0.25em 0.25em 0.25em 0.25em;
     }
 
-}
-
-@media (max-width: 575px) and (max-width: 767px) {
-
-    label,
-    input,
-    textarea {
-        display: block;
-        width: 100%;
-    }
 
 
 }
-
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1){
-
-  }
