@@ -31,8 +31,7 @@ The users goals of this site are
 
 ### Market Analysis
 
-The Primary and secondary target audience users of this site are in the age group of 10 years old and upwards to 30
-or more. I will be designing the site to be simple and attractive to its users, I will be using bright colours and animating svg images to make the site feel fun and interactive, these could be children or young adults that came to the site from
+The Primary and secondary target audience users of this site of a young to older age demigraphic. I will be designing the site to be simple and attractive to its users, I will be using bright colours and animating svg images to make the site feel fun and interactive, these could be children or young adults that came to the site from
 twitter, discord, reddit or even youtube.
 
 ### Features
