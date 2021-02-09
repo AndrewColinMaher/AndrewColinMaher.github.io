@@ -16,6 +16,13 @@
     <link rel="stylesheet" href="assets/css/utilities.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>CJBlasts</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init("user_hciLiULGF29prDRtlQoaN");
+        })();
+    </script>
 </head>
 
 <body>
@@ -87,23 +94,23 @@
                 <!-- Form -->
                 <div class="col-md-8 text-center">
                     <!-- Based of the under the sea contact form https://www.mockplus.com/blog/post/contact-us-page-template -->
-                    <div id="form">
-                        <form id="waterform" method="post">
-                            <div class="formgroup" id="name-form">
-                                <label for="name">Your name*</label>
-                                <input type="text" id="name" name="name" required />
-                            </div>
-                            <div class="formgroup" id="email-form">
-                                <label for="email">Your e-mail*</label>
-                                <input type="email" id="email" name="email" required />
-                            </div>
-                            <div class="formgroup" id="message-form">
-                                <label for="message">Your message</label>
-                                <textarea id="message" name="message" required></textarea>
-                            </div>
-                            <input type="submit" value="Send your message!" />
-                        </form>
-                    </div>
+                    <form id="form">
+                        <div class="field">
+                            <label for="user_name">You're name</label>
+                            <input type="text" name="user_name" id="user_name" placeholder="Place name here">
+                        </div>
+                        <div class="field">
+                            <label for="user_email">You're email</label>
+                            <input type="text" name="user_email" id="user_email" placeholder="Place e-mail here">
+                        </div>
+                        <div class="field">
+                            <label for="message">message</label>
+                            <textarea type="text" name="message" id="message" class="textarea"
+                                placeholder="Place message here"></textarea>
+                        </div>
+
+                        <input type="submit" id="button" value="Send Email">
+                    </form>
                 </div>
             </div>
         </section>
@@ -329,6 +336,7 @@
     <!--    Footer -->
 
     <!--   //Footer -->
+    <script src="assets/js/sendEmail.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
